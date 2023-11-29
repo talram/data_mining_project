@@ -1,4 +1,3 @@
-
 import requests
 from bs4 import BeautifulSoup
 
@@ -80,13 +79,13 @@ def extract_categories(category_element):
     else:
         return 'Category not available'
 
+
 def search(restaurant_listings):
     for index, listing in enumerate(restaurant_listings, start=1):
         number = index
 
         category_element = listing.find('div', class_='categories')
         category = extract_categories(category_element)
-
 
         name_element = listing.find('h2')
         if name_element:
