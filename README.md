@@ -25,8 +25,11 @@ url='https://www.yellowpages.com/search?search_terms=restaurants&geo_location_te
 to something you desire
 ​
 ​
+
 will look like:
 \web_scraper_yellow_pages.py" 
+
+
 Restaurant Number: 1
 Name: Palermo Ristorante Italiano
 Categories: Restaurants, Pizza, Italian Restaurants
@@ -35,6 +38,7 @@ Address: 1858 N Vermont Ave, Los Angeles, CA 90027
 Rating: 4.5/5
 Rating Count: (45)
 ​
+
 Restaurant Number: 2
 Name: Casa Bianca Pizza Pie
 Categories: Restaurants, Pizza, Italian Restaurants
@@ -43,6 +47,7 @@ Address: Los Angeles, CA 90041
 Rating: 4.5/5
 Rating Count: (35)
 ​
+
 Restaurant Number: 3
 Name: Oyabun Seafood
 Categories: Restaurants, Seafood Restaurants, Asian Restaurants
