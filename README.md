@@ -93,7 +93,6 @@ the search function was parted for simplification of ease and mutability.
 ​
 ## Support
 ​
-tal.ramon93@gmail.com
 ​
 orgewe@gmail.com
 ​
