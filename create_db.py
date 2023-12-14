@@ -3,17 +3,6 @@ import mysql.connector
 from logger import logger
 
 all_sql_tables = []
-# Connect to MySQL server
-"""
-conn = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="12345",
-    database="restaurant_data_db"
-)
-"""
-# Create a cursor object to execute SQL queries
-# cursor = conn.cursor()
 
 # Define the tables: Restaurants, Categories, and Restaurants_Categories
 restaurants_table_query = """
@@ -48,11 +37,11 @@ all_sql_tables.append(restaurants_categories_table_query)
 
 def build_database(db_name, host_name, user_name, password, all_sql_tables):
     try:
-        #  Define the connection and the cursor that is used for executing the SQL commands
+        # Define the connection and the cursor that is used for executing the SQL commands
         my_db = mysql.connector.connect(host=host_name, user=user_name, passwd=password, database=db_name)
         cursor = my_db.cursor()
 
-        # Execute all SQL commands and commit it into the DB
+        # Execute all SQL queries and commit it into the DB
         for sql_q in all_sql_tables:
             cursor.execute(sql_q)
         my_db.commit()
@@ -63,7 +52,7 @@ def build_database(db_name, host_name, user_name, password, all_sql_tables):
         my_db.rollback()  # rollback if any exception occured
         logger.critical("Failed creating database {}.".format(error))  # log into a logs file
 
-    # Close database connection no matter what happened before
+    # Close database connection
     finally:
         if my_db is not None and my_db.is_connected():
             cursor.close()
