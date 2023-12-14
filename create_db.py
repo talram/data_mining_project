@@ -12,8 +12,7 @@ CREATE TABLE IF NOT EXISTS Restaurants (
     Phone varchar(50),
     Address varchar(250),
     Rating varchar(50),
-    Rating_Count int,
-    UNIQUE KEY unique_constraint_name (Name, Address)
+    Rating_Count int
 );
 """
 all_sql_tables.append(restaurants_table_query)
