@@ -59,7 +59,7 @@ Rating Count: (3)
 ​
 ## Tech Stack
 ​
-**Python interpreter 3.11+
+Python interpreter 3.11+
 pypi requests
 pypi bs4
 
@@ -124,7 +124,7 @@ Category_Id (Foreign Key)
 ​
 
 ### ERD Diagram
-![img.png](img.png)
+
 
 ### Usage
 To insert data into the database, use  (at least) the command:
