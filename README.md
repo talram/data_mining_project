@@ -148,3 +148,44 @@ Or gewelber
 ## Acknowledgements
 ​
 ITC - Israel Tech Challenge
+
+## Database Documentation
+​
+### Schema Installation
+
+​
+Set up the database schema:
+​
+
+Run Database Setup Script: python create_db.py
+​
+### Database Schema
+Our database consists of the following tables:
+
+#### Restaurants Table:
+
+Restaurant_Id (Primary Key)
+Name
+Phone
+Address
+Rating
+Rating_Count
+
+#### Categories Table:
+
+Category_Id (Primary Key)
+Category_Name (Unique)
+
+#### Restaurants_Categories Table
+Restaurant_Id (Foreign Key)
+Category_Id (Foreign Key)
+​
+​
+
+### ERD Diagram
+![The Erd Diagram](https://github.com/talram/data_mining_project/blob/master/ERD_Diagram.png)
+
+### Usage
+To insert data into the database, use  (at least) the command:
+
+python scraper.py -sc
