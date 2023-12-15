@@ -114,7 +114,7 @@ Rating Count: (3)
 ​
 ## Tech Stack
 ​
-Python interpreter 3.11+  
+**Python interpreter 3.11+
 requests  
 bs4
 ​
@@ -140,7 +140,7 @@ if __name__ == '__main__':
 ​
 Start the web_scraper_yellow_pages.py
 ​
-run it to get standard text or open and change url at def main funciton
+run it to get standard text or open and change url at def main function
 ​
 ​
 ## Roadmap
@@ -150,6 +150,47 @@ the program made of search method of web scraper that store the information in a
 the search function was parted for simplification of ease and mutability.
 ​
 ​
+
+# Database Documentation
+​
+### Schema Installation
+
+​
+Set up the database schema:
+​
+
+Run Database Setup Script: python create_db.py
+​
+### Database Schema
+Our database consists of the following tables:
+
+#### Restaurants Table:
+
+Restaurant_Id (Primary Key)
+Name
+Phone
+Address
+Rating
+Rating_Count
+
+#### Categories Table:
+
+Category_Id (Primary Key)
+Category_Name (Unique)
+
+#### Restaurants_Categories Table
+Restaurant_Id (Foreign Key)
+Category_Id (Foreign Key)
+​
+​
+
+### ERD Diagram
+![The Erd Diagram](https://github.com/talram/data_mining_project/blob/master/ERD_Diagram.png)
+
+### Usage
+To insert data into the database, use  (at least) the command:
+
+python scraper.py -sc
 ## Support
 ​
 ​
@@ -187,6 +228,7 @@ which the elements are listed by enumerate.
 classes which collected from changing website with different elements of HTML Classes.
 connecting files to appending JSON file.
 scanning values from user.
+analyzing and moving data and creating databases 
 ​
 ​
 ## Feedback
