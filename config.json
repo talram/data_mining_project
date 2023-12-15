@@ -13,5 +13,11 @@
     "result-rating two": 2,
     "result-rating one half": 1.5,
     "result-rating one": 1
+  },
+  "DB_CONFIG": {
+    "host": "localhost",
+    "user": "root",
+    "password": "",
+    "database": "restaurant_data_db"
   }
 }
