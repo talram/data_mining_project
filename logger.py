@@ -4,11 +4,10 @@ import sys
 
 class Logger:
     def __init__(self):
-        # Initiating the logger object
+        # Initiate the logger object
         self.logger = logging.getLogger(__name__)
 
-        # Set the level of the logger. This is SUPER USEFUL since it enables you to decide what to save in the logs file.
-        # Explanation regarding the logger levels can be found here - https://docs.python.org/3/howto/logging.html
+        # Set the level of the logger
         self.logger.setLevel(logging.DEBUG)
 
         # Create the logs.log file
@@ -18,15 +17,11 @@ class Logger:
         formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
         handler.setFormatter(formatter)
 
-        # Adding the format handler
+        # Add the format handler
         self.logger.addHandler(handler)
 
-        # And printing the logs to the console as well
+        # Print the logs to the console
         self.logger.addHandler(logging.StreamHandler(sys.stdout))
 
 
-# Usage example:
 logger = Logger().logger
-logger.debug("This log's level is 'DEBUG'")
-logger.info("This log's level is 'info'")
-logger.error("This log's level is 'error'")

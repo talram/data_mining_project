@@ -12,7 +12,7 @@ CREATE TABLE IF NOT EXISTS Restaurants (
     Phone varchar(50),
     Address varchar(250),
     Rating varchar(50),
-    Rating_Count int
+    Rating_Count varchar(50)
 );
 """
 all_sql_tables.append(restaurants_table_query)
