@@ -124,7 +124,7 @@ Category_Id (Foreign Key)
 ​
 
 ### ERD Diagram
-
+![The diagram](https://github.com/talram/data_mining_project/blob/master/ERD_Diagram.png)
 
 ### Usage
 To insert data into the database, use  (at least) the command:
