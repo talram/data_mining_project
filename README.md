@@ -60,8 +60,9 @@ Rating Count: (3)
 ## Tech Stack
 ​
 **Python interpreter 3.11+
-pypi requests
-pypi bs4
+requests  
+bs4
+
 ​
 ## Run Locally
 ​
@@ -86,7 +87,9 @@ Go to the project directory
 ​
 Start the web_scraper_yellow_pages.py
 ​
-run it to get standard text or open and cahnge url at line 68.
+
+run it to get standard text or open and change url at def main function
+
 ​
 ​
 ## Roadmap
@@ -96,60 +99,8 @@ the program made of search method of web scraper that store the information in a
 the search function was parted for simplification of ease and mutability.
 ​
 ​
-## Support
-​
-​
-orgewe@gmail.com
-​
-​
-## License
-​
-Copyright (c) [2023] [Tal & Or]
-​
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-​
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-​
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-​
-EVERY COMMERCIAL GAIN BELONG TO THE REAL YELLOW PAGES tm
-​
-## Lessons Learned
-​
-python bs4 methods and pytohn requests with use of collecting the information to dictionary which the elements are listed by enumerate and classeses which collecetd from changing website with differnt elements of HTML Classes.
-​
-​
-## Feedback
-​
-If you have any feedback, please reach out to us at:
-​
-orgewe@gmail.com
-​
-​
-## Authors
-​
-Tal Ramon
-​
-Or gewelber
-​
-​
-## Acknowledgements
-​
-ITC - Israel Tech Challenge
 
-## Database Documentation
+# Database Documentation
 ​
 ### Schema Installation
 
@@ -189,3 +140,64 @@ Category_Id (Foreign Key)
 To insert data into the database, use  (at least) the command:
 
 python scraper.py -sc
+
+## Support
+​
+​
+orgewe@gmail.com
+​
+​
+## License
+​
+Copyright (c) [2023] [Tal & Or]
+​
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+​
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+​
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+​
+EVERY COMMERCIAL GAIN BELONG TO THE REAL YELLOW PAGES tm
+​
+## Lessons Learned
+​
+
+python bs4 methods and python requests with use of collecting the information to dictionary,
+which the elements are listed by enumerate.
+classes which collected from changing website with different elements of HTML Classes.
+connecting files to appending JSON file.
+scanning values from user.
+analyzing and moving data and creating databases 
+
+​
+​
+## Feedback
+​
+If you have any feedback, please reach out to us at:
+​
+orgewe@gmail.com
+​
+​
+## Authors
+​
+Tal Ramon
+​
+Or gewelber
+​
+​
+## Acknowledgements
+​
+ITC - Israel Tech Challenge
+
