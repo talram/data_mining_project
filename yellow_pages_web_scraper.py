@@ -5,6 +5,8 @@ import argparse
 import sys
 import csv
 import json
+import mysql.connector
+from logger import logger
 
 
 def load_config():
@@ -193,6 +195,100 @@ def parse():
     return args.scrape_everything, args.show_everything, args.import_excel
 
 
+def connect_to_database():
+    return mysql.connector.connect(
+        host="localhost",
+        user="root",
+        password="12345",
+        database="restaurant_data_db"
+    )
+
+
+def insert_data_to_restaurants_table(cursor, restaurant_info):
+    try:
+        # Insert data into the Restaurants table
+        insert_query = """
+            INSERT INTO Restaurants (Name, Phone, Address, Rating, Rating_Count)
+            VALUES (%s, %s, %s, %s, %s);
+        """
+        cursor.execute(insert_query, (
+            restaurant_info['Name'],
+            restaurant_info['Phone'],
+            restaurant_info['Address'],
+            restaurant_info['Rating'],
+            restaurant_info['Rating Count']
+        ))
+
+        # Return the last inserted row id - Restaurant_Id
+        return cursor.lastrowid
+    except mysql.connector.Error as error:
+        logger.error("Failed to insert data into Restaurants table: {}".format(error))
+        raise
+
+
+def insert_to_categories_table(cursor, category_name):
+    try:
+        # Check if the category already exists
+        check_query = "SELECT Category_Id FROM Categories WHERE Category_Name = %s;"
+        cursor.execute(check_query, (category_name,))
+        result = cursor.fetchone()
+
+        if not result:
+            # Category doesn't exist, insert a new record
+            insert_query = "INSERT INTO Categories (Category_Name) VALUES (%s);"
+            cursor.execute(insert_query, (category_name,))
+
+            # Return the last inserted row id - Category_Id
+            return cursor.lastrowid
+        else:
+            # Category already exists, return the existing Category_Id
+            return result[0]
+
+    except mysql.connector.Error as error:
+        logger.error("Failed to insert data into Categories table: {}".format(error))
+        raise
+
+
+def insert_to_restaurants_categories_table(cursor, restaurant_id, category_ids):
+    try:
+        # Insert data into the Restaurants_Categories table
+        insert_query = """
+            INSERT INTO Restaurants_Categories (Restaurant_Id, Category_Id)
+            VALUES (%s, %s);
+        """
+
+        # Insert multiple rows for each restaurant_id and its associated category_ids
+        for category_id in category_ids:
+            cursor.execute(insert_query, (restaurant_id, category_id))
+
+    except mysql.connector.Error as error:
+        logger.error("Failed to insert data into Restaurants_Categories table: {}".format(error))
+        raise
+
+
+def insert_data(main_dict_categories):
+    try:
+        with connect_to_database() as conn, conn.cursor() as cursor:
+            for number, restaurant_info in main_dict_categories.items():
+                # Insert into Restaurants table
+                restaurant_id = insert_data_to_restaurants_table(cursor, restaurant_info)
+
+                # Insert into Categories table
+                categories = restaurant_info['Categories'].split(', ')
+                category_ids = [insert_to_categories_table(cursor, category_name) for category_name in categories]
+
+                # Insert into Restaurants_Categories table
+                insert_to_restaurants_categories_table(cursor, restaurant_id, category_ids)
+            logger.info("Data inserted into Categories table successfully.")
+            logger.info("Data inserted into Restaurants table successfully.")
+            logger.info("Data inserted into Restaurants_Categories table successfully.")
+
+            conn.commit()
+            logger.info("All data inserted successfully.")
+    except mysql.connector.Error as error:
+        logger.error("Failed to insert data: {}".format(error))
+
+
 def main():
     main_dict_categories = {}
     flag_scrape, flag_show, flag_excel = parse()
@@ -214,6 +310,10 @@ def main():
         print_all(main_dict_categories)
     if flag_excel:
         export_all(main_dict_categories)
+
+    # Insert this data into the database restaurants
+    print("+++ Inserting the scraped data into the database +++")
+    insert_data(main_dict_categories)
 
 
 if __name__ == '__main__':
