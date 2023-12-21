@@ -1,7 +1,10 @@
 {
   "CSV_FILE_PATH": "restaurants.csv",
 
-  "BASE_URL": "https://www.yellowpages.com/los-angeles-ca/restaurants",
+  "CONFIG_FILE_PATH": "config.json",
+
+  "BASE_URL": "https://www.yellowpages.com/los-angeles-ca/restaurants?page={}",
+
 
   "RATING_CLASSES": {
     "result-rating five": 5,
