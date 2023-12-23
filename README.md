@@ -184,8 +184,7 @@ Run Database Setup Script: python create_db.py
 ​
 ### Database Schema
 Our database consists of the following tables:
-to update 
-<span style="color: red;">update at the end of milestone3.</span>
+
 #### Restaurants Table:
 
 Restaurant_Id (Primary Key)
@@ -198,18 +197,25 @@ Rating_Count
 #### Categories Table:
 
 Category_Id (Primary Key)
-Category_Name (Unique)
+Category_Name
 
 #### Restaurants_Categories Table
 Restaurant_Id (Foreign Key)
 Category_Id (Foreign Key)
+
+
+#### Yelp_Data Table
+Restaurant_Id (Foreign Key)
+Yelp_has_delivery
+Yelp_type_Pricing
+Yelp_Rating
+
 ​
 ​
 
 ### ERD Diagram
-<span style="color: red;">update at the end of milestone3.</span>
-
-![The Erd Diagram](https://github.com/talram/data_mining_project/blob/master/ERD_Diagram.png)
+   
+![The Erd Diagram](https://github.com/talram/data_mining_project/blob/master/DB%20Diagram%20with%20the%20Enriched%20data.png)
 
 ### Usage
 To insert data into the database, use  (at least) the command:  
