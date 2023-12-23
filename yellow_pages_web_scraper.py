@@ -7,6 +7,7 @@ import csv
 import json
 import mysql.connector
 from logger import logger
+import os
 
 
 def load_config():
@@ -18,11 +19,14 @@ def load_config():
         print(f"config file '{CONFIG_FILE_PATH}' not found.")
     except json.JSONDecodeError:
         print(f"error decoding JSON in the config file '{CONFIG_FILE_PATH}'.")
-    except KeyError as e:
-        print(f"keyError: {e} not found in the configuration file.")
+    except Exception as e:
+        print(f"An error occurred: {e}")
 
 
 def print_all(print_dict_categories):
+    if not print_dict_categories:
+        print("No restaurant data to display.")
+        return
     print()
     print("the restaurant list is:")
     for number in range(1, len(print_dict_categories) + 1):
@@ -37,9 +41,9 @@ def print_all(print_dict_categories):
 
 
 def export_all(export_dict_categories):
-    CSV_FILE_PATH = CONFIG.get('CSV_FILE_PATH')
+    csv_file_path = CONFIG.get('CSV_FILE_PATH')
 
-    with open(CSV_FILE_PATH, 'w', newline='', encoding='utf-8') as csv_file:
+    with open(csv_file_path, 'w', newline='', encoding='utf-8') as csv_file:
         fieldnames = list(export_dict_categories.values())[0].keys()
         writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
 
@@ -56,13 +60,13 @@ def export_all(export_dict_categories):
                 'Rating Count': restaurant_info['Rating Count']
             })
 
-    print(f'CSV file created: {CSV_FILE_PATH}')
+    print(f'CSV file created: {csv_file_path}')
 
 
 def find_rating(listing):
-    RATING_CLASSES = CONFIG.get('RATING_CLASSES', {})
+    rating_classes = CONFIG.get('RATING_CLASSES', {})
     try:
-        for class_name, rating_value in RATING_CLASSES.items():
+        for class_name, rating_value in rating_classes.items():
             ratings_element = listing.find('div', class_=class_name)
             if ratings_element:
                 return rating_value
@@ -143,9 +147,13 @@ def extract_phone(phone_element):
         return 'phone extraction error'
 
 
-def search(restaurant_listings):
-    dict_categories = {}
-    for index, listing in enumerate(restaurant_listings, start=1):
+def search(restaurant_listings, dict_categories):
+    # dict_categories = {}
+    if not dict_categories:
+        start_index = 1
+    else:
+        start_index = max(dict_categories.keys()) + 1
+    for index, listing in enumerate(restaurant_listings, start=start_index):
         try:
             number = index
             category_element = listing.find('div', class_='categories')
@@ -185,21 +193,24 @@ def parse():
                         help='essential, scrape the relevant data')
     parser.add_argument('-sh', '--show-everything', action='store_true',
                         help='optional, show the relevant data')
-    parser.add_argument('-ex', '--import-excel', action='store_true',
+    parser.add_argument('-csv', '--export-csv', action='store_true',
                         help='optional, import the data to csv file')
+    parser.add_argument('-db', '--data-base', action='store_true',
+                        help='optional, insert the data to mysql')
     args = parser.parse_args()
     print("you should scrape to get relevant information,\n -h help\n -sc for scrape") \
         if not args.scrape_everything else ""
     print("nothing will be shown, try adding -sh to see on terminal") if not args.show_everything else ""
-    print("nothing will be exported, try adding -ex to export to excel") if not args.import_excel else ""
-    return args.scrape_everything, args.show_everything, args.import_excel
+    print("nothing will be exported, try adding -csv to export to csv file") if not args.export_csv else ""
+    print("nothing will be insert, try adding -db to export to MySQL") if not args.data_base else ""
+    return args.scrape_everything, args.show_everything, args.export_csv, args.data_base
 
 
 def connect_to_database():
     return mysql.connector.connect(
         host="localhost",
-        user="root",
-        password="12345",
+        user="pass",
+        password="pass",
         database="restaurant_data_db"
     )
 
@@ -291,33 +302,41 @@ def insert_data(main_dict_categories):
 
 def main():
     main_dict_categories = {}
-    flag_scrape, flag_show, flag_excel = parse()
+    flag_scrape, flag_show, flag_excel, flag_data_base = parse()
+    flag_scrape, flag_show, flag_excel, flag_data_base = True, False, False, True  # for testing, delete at the end
     if flag_scrape:
-        url = 'https://www.yellowpages.com/los-angeles-ca/restaurants'
-        try:
-            response = requests.get(url)
-            response.raise_for_status()
-            soup = BeautifulSoup(response.content, 'html.parser')
-            restaurant_listings = soup.find_all('div', class_='info')
-            main_dict_categories = search(restaurant_listings)
-        except requests.RequestException as req_error:
-            print(f"Request error (is the website address correct?): {req_error}")
-        except Exception as main_error:
-            print(f"An unexpected error occurred : {main_error}")
+        # base_url = "https://www.yellowpages.com/los-angeles-ca/restaurants?page={}"
+        base_url = CONFIG.get('BASE_URL')
+        for page_number in range(1, 101):  # Change the range accordingly, above 101 Irrelevant
+            url = base_url.format(page_number)
+            try:
+                response = requests.get(url)
+                response.raise_for_status()
+                soup = BeautifulSoup(response.content, 'html.parser')
+                restaurant_listings = soup.find_all('div', class_='info')
+                main_dict_categories = search(restaurant_listings, main_dict_categories)
+            except requests.RequestException as req_error:
+                print(f"Request error (is the website address correct?): {req_error}")
+            except Exception as main_error:
+                print(f"An unexpected error occurred: {main_error}")
     else:
         print("to use the program choose -sc, -h or --help for help")
     if flag_show:
         print_all(main_dict_categories)
     if flag_excel:
         export_all(main_dict_categories)
-
-    # Insert this data into the database restaurants
-    print("+++ Inserting the scraped data into the database +++")
-    insert_data(main_dict_categories)
+    if flag_data_base:
+        # Insert this data into the database restaurants
+        print("+++ Inserting the scraped data into the database +++")
+        insert_data(main_dict_categories)
 
 
 if __name__ == '__main__':
-    CONFIG_FILE_PATH = 'config.json'
+    # script_dir = os.path.dirname(os.path.abspath(__file__))  # overkill
+    # CONFIG_FILE_PATH = os.path.join(script_dir, 'config.json')  # overkill
+    CONFIG_FILE_PATH = 'config.json'  # make sure the json file is in the folder of the scraper
+    # config_file_path = CONFIG.get('CONFIG_FILE_PATH')
+    # from config import CONFIG_FILE_PATH
     CONFIG = load_config()
     if CONFIG is None:
         sys.exit("CONFIG is not loaded, goodbye everybody I got to go and find the json file ")
