@@ -1,7 +1,5 @@
 import numpy as np
 import pandas as pd
-import mysql.connector
-from sqlalchemy import create_engine
 
 YELP_RAW_CSV_FILE = 'yelp_retrieved_restaurants.csv'
 YELLOW_PAGES_CSV_FILE = 'restaurants.csv'
