@@ -1,0 +1,832 @@
+2023-12-14 12:56:31,803 - __main__ - DEBUG - This log's level is 'DEBUG'
+2023-12-14 12:56:31,803 - __main__ - INFO - This log's level is 'info'
+2023-12-14 12:56:31,803 - __main__ - ERROR - This log's level is 'error'
+2023-12-15 01:05:54,585 - logger - DEBUG - This log's level is 'DEBUG'
+2023-12-15 01:05:54,586 - logger - INFO - This log's level is 'info'
+2023-12-15 01:05:54,586 - logger - ERROR - This log's level is 'error'
+2023-12-15 01:07:30,950 - logger - DEBUG - This log's level is 'DEBUG'
+2023-12-15 01:07:30,950 - logger - INFO - This log's level is 'info'
+2023-12-15 01:07:30,950 - logger - ERROR - This log's level is 'error'
+2023-12-15 01:07:30,975 - logger - INFO - Connection to MySQL did not succeed.
+2023-12-15 01:09:46,113 - logger - DEBUG - This log's level is 'DEBUG'
+2023-12-15 01:09:46,114 - logger - INFO - This log's level is 'info'
+2023-12-15 01:09:46,114 - logger - ERROR - This log's level is 'error'
+2023-12-15 01:09:46,221 - logger - INFO - 
+*** Database was created successfully. ***
+
+2023-12-15 01:09:46,222 - logger - INFO - MySQL connection is closed.
+2023-12-15 01:15:22,200 - logger - DEBUG - This log's level is 'DEBUG'
+2023-12-15 01:15:22,202 - logger - INFO - This log's level is 'info'
+2023-12-15 01:15:22,202 - logger - ERROR - This log's level is 'error'
+2023-12-15 01:15:22,231 - logger - CRITICAL - Failed creating database 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 8.
+2023-12-15 01:15:22,231 - logger - INFO - MySQL connection is closed.
+2023-12-15 01:15:40,016 - logger - DEBUG - This log's level is 'DEBUG'
+2023-12-15 01:15:40,016 - logger - INFO - This log's level is 'info'
+2023-12-15 01:15:40,016 - logger - ERROR - This log's level is 'error'
+2023-12-15 01:15:40,039 - logger - CRITICAL - Failed creating database 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 8.
+2023-12-15 01:15:40,039 - logger - INFO - MySQL connection is closed.
+2023-12-15 01:17:14,753 - logger - DEBUG - This log's level is 'DEBUG'
+2023-12-15 01:17:14,753 - logger - INFO - This log's level is 'info'
+2023-12-15 01:17:14,753 - logger - ERROR - This log's level is 'error'
+2023-12-15 01:17:14,789 - logger - CRITICAL - Failed creating database 4028 (HY000): A table must have at least one visible column..
+2023-12-15 01:17:14,789 - logger - INFO - MySQL connection is closed.
+2023-12-15 01:17:24,705 - logger - DEBUG - This log's level is 'DEBUG'
+2023-12-15 01:17:24,705 - logger - INFO - This log's level is 'info'
+2023-12-15 01:17:24,705 - logger - ERROR - This log's level is 'error'
+2023-12-15 01:17:24,758 - logger - INFO - 
+*** Database was created successfully. ***
+
+2023-12-15 01:17:24,758 - logger - INFO - MySQL connection is closed.
+2023-12-15 01:51:59,557 - logger - DEBUG - This log's level is 'DEBUG'
+2023-12-15 01:51:59,557 - logger - INFO - This log's level is 'info'
+2023-12-15 01:51:59,557 - logger - ERROR - This log's level is 'error'
+2023-12-15 02:03:14,575 - logger - DEBUG - This log's level is 'DEBUG'
+2023-12-15 02:03:14,575 - logger - INFO - This log's level is 'info'
+2023-12-15 02:03:14,575 - logger - ERROR - This log's level is 'error'
+2023-12-15 02:31:38,113 - logger - DEBUG - This log's level is 'DEBUG'
+2023-12-15 02:31:38,113 - logger - INFO - This log's level is 'info'
+2023-12-15 02:31:38,113 - logger - ERROR - This log's level is 'error'
+2023-12-15 02:31:41,927 - logger - INFO - Database connection closed.
+2023-12-15 02:32:47,773 - logger - DEBUG - This log's level is 'DEBUG'
+2023-12-15 02:32:47,773 - logger - INFO - This log's level is 'info'
+2023-12-15 02:32:47,773 - logger - ERROR - This log's level is 'error'
+2023-12-15 02:32:51,131 - logger - INFO - Database connection closed.
+2023-12-15 02:35:26,420 - logger - DEBUG - This log's level is 'DEBUG'
+2023-12-15 02:35:26,420 - logger - INFO - This log's level is 'info'
+2023-12-15 02:35:26,420 - logger - ERROR - This log's level is 'error'
+2023-12-15 02:35:29,836 - logger - INFO - Database connection closed.
+2023-12-15 02:37:15,111 - logger - DEBUG - This log's level is 'DEBUG'
+2023-12-15 02:37:15,111 - logger - INFO - This log's level is 'info'
+2023-12-15 02:37:15,111 - logger - ERROR - This log's level is 'error'
+2023-12-15 02:40:17,182 - logger - DEBUG - This log's level is 'DEBUG'
+2023-12-15 02:40:17,182 - logger - INFO - This log's level is 'info'
+2023-12-15 02:40:17,182 - logger - ERROR - This log's level is 'error'
+2023-12-15 02:40:19,960 - logger - ERROR - Failed to insert data: 1366 (HY000): Incorrect integer value: '(44)' for column 'Rating_Count' at row 1
+2023-12-15 02:40:19,960 - logger - INFO - Database connection closed.
+2023-12-15 02:40:19,972 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 02:40:19,972 - logger - INFO - Database connection closed.
+2023-12-15 02:40:19,978 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 02:40:19,978 - logger - INFO - Database connection closed.
+2023-12-15 02:40:19,984 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 02:40:19,984 - logger - INFO - Database connection closed.
+2023-12-15 02:40:19,990 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 02:40:19,990 - logger - INFO - Database connection closed.
+2023-12-15 02:40:19,996 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 02:40:19,996 - logger - INFO - Database connection closed.
+2023-12-15 02:40:20,002 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 02:40:20,002 - logger - INFO - Database connection closed.
+2023-12-15 02:42:37,972 - logger - DEBUG - This log's level is 'DEBUG'
+2023-12-15 02:42:37,972 - logger - INFO - This log's level is 'info'
+2023-12-15 02:42:37,972 - logger - ERROR - This log's level is 'error'
+2023-12-15 02:42:38,043 - logger - INFO - 
+*** Database was created successfully. ***
+
+2023-12-15 02:42:38,044 - logger - INFO - MySQL connection is closed.
+2023-12-15 02:43:24,445 - logger - DEBUG - This log's level is 'DEBUG'
+2023-12-15 02:43:24,445 - logger - INFO - This log's level is 'info'
+2023-12-15 02:43:24,445 - logger - ERROR - This log's level is 'error'
+2023-12-15 02:43:27,874 - logger - INFO - Data inserted successfully.
+2023-12-15 02:43:27,876 - logger - INFO - Database connection closed.
+2023-12-15 02:43:27,881 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 02:43:27,881 - logger - INFO - Database connection closed.
+2023-12-15 02:43:27,886 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 02:43:27,886 - logger - INFO - Database connection closed.
+2023-12-15 02:43:27,891 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 02:43:27,891 - logger - INFO - Database connection closed.
+2023-12-15 02:48:05,186 - logger - DEBUG - This log's level is 'DEBUG'
+2023-12-15 02:48:05,186 - logger - INFO - This log's level is 'info'
+2023-12-15 02:48:05,186 - logger - ERROR - This log's level is 'error'
+2023-12-15 02:48:07,836 - logger - INFO - Data inserted successfully.
+2023-12-15 02:48:07,836 - logger - INFO - Database connection closed.
+2023-12-15 02:48:07,841 - logger - INFO - Data inserted successfully.
+2023-12-15 02:48:07,841 - logger - INFO - Database connection closed.
+2023-12-15 02:48:07,847 - logger - INFO - Data inserted successfully.
+2023-12-15 02:48:07,847 - logger - INFO - Database connection closed.
+2023-12-15 02:48:07,852 - logger - INFO - Data inserted successfully.
+2023-12-15 02:48:07,852 - logger - INFO - Database connection closed.
+2023-12-15 02:48:07,856 - logger - INFO - Data inserted successfully.
+2023-12-15 02:48:07,856 - logger - INFO - Database connection closed.
+2023-12-15 02:48:07,861 - logger - INFO - Data inserted successfully.
+2023-12-15 02:48:07,862 - logger - INFO - Database connection closed.
+2023-12-15 02:48:07,867 - logger - INFO - Data inserted successfully.
+2023-12-15 02:48:07,867 - logger - INFO - Database connection closed.
+2023-12-15 02:48:07,872 - logger - INFO - Data inserted successfully.
+2023-12-15 02:48:07,873 - logger - INFO - Database connection closed.
+2023-12-15 02:48:07,878 - logger - INFO - Data inserted successfully.
+2023-12-15 02:48:07,879 - logger - INFO - Database connection closed.
+2023-12-15 02:48:07,887 - logger - INFO - Data inserted successfully.
+2023-12-15 02:48:07,888 - logger - INFO - Database connection closed.
+2023-12-15 02:48:07,898 - logger - INFO - Data inserted successfully.
+2023-12-15 02:48:07,898 - logger - INFO - Database connection closed.
+2023-12-15 02:48:07,914 - logger - INFO - Data inserted successfully.
+2023-12-15 02:48:07,919 - logger - INFO - Database connection closed.
+2023-12-15 02:48:07,928 - logger - INFO - Data inserted successfully.
+2023-12-15 02:48:07,928 - logger - INFO - Database connection closed.
+2023-12-15 02:48:07,942 - logger - INFO - Data inserted successfully.
+2023-12-15 02:48:07,942 - logger - INFO - Database connection closed.
+2023-12-15 02:48:07,955 - logger - INFO - Data inserted successfully.
+2023-12-15 02:48:07,955 - logger - INFO - Database connection closed.
+2023-12-15 02:48:07,972 - logger - INFO - Data inserted successfully.
+2023-12-15 02:48:07,973 - logger - INFO - Database connection closed.
+2023-12-15 02:48:07,982 - logger - INFO - Data inserted successfully.
+2023-12-15 02:48:07,982 - logger - INFO - Database connection closed.
+2023-12-15 02:48:07,992 - logger - INFO - Data inserted successfully.
+2023-12-15 02:48:07,992 - logger - INFO - Database connection closed.
+2023-12-15 02:48:07,998 - logger - INFO - Data inserted successfully.
+2023-12-15 02:48:07,999 - logger - INFO - Database connection closed.
+2023-12-15 02:48:08,006 - logger - INFO - Data inserted successfully.
+2023-12-15 02:48:08,006 - logger - INFO - Database connection closed.
+2023-12-15 02:48:08,011 - logger - INFO - Data inserted successfully.
+2023-12-15 02:48:08,013 - logger - INFO - Database connection closed.
+2023-12-15 02:48:08,018 - logger - INFO - Data inserted successfully.
+2023-12-15 02:48:08,018 - logger - INFO - Database connection closed.
+2023-12-15 02:48:08,025 - logger - INFO - Data inserted successfully.
+2023-12-15 02:48:08,026 - logger - INFO - Database connection closed.
+2023-12-15 02:48:08,032 - logger - INFO - Data inserted successfully.
+2023-12-15 02:48:08,032 - logger - INFO - Database connection closed.
+2023-12-15 02:48:08,038 - logger - INFO - Data inserted successfully.
+2023-12-15 02:48:08,038 - logger - INFO - Database connection closed.
+2023-12-15 02:48:08,045 - logger - INFO - Data inserted successfully.
+2023-12-15 02:48:08,046 - logger - INFO - Database connection closed.
+2023-12-15 02:48:08,051 - logger - INFO - Data inserted successfully.
+2023-12-15 02:48:08,052 - logger - INFO - Database connection closed.
+2023-12-15 02:48:08,059 - logger - INFO - Data inserted successfully.
+2023-12-15 02:48:08,060 - logger - INFO - Database connection closed.
+2023-12-15 02:48:08,066 - logger - INFO - Data inserted successfully.
+2023-12-15 02:48:08,066 - logger - INFO - Database connection closed.
+2023-12-15 02:48:08,073 - logger - INFO - Data inserted successfully.
+2023-12-15 02:48:08,073 - logger - INFO - Database connection closed.
+2023-12-15 02:48:08,080 - logger - INFO - Data inserted successfully.
+2023-12-15 02:48:08,080 - logger - INFO - Database connection closed.
+2023-12-15 02:48:08,086 - logger - INFO - Data inserted successfully.
+2023-12-15 02:48:08,086 - logger - INFO - Database connection closed.
+2023-12-15 02:48:08,093 - logger - INFO - Data inserted successfully.
+2023-12-15 02:48:08,093 - logger - INFO - Database connection closed.
+2023-12-15 02:48:08,100 - logger - INFO - Data inserted successfully.
+2023-12-15 02:48:08,101 - logger - INFO - Database connection closed.
+2023-12-15 02:48:08,107 - logger - INFO - Data inserted successfully.
+2023-12-15 02:48:08,107 - logger - INFO - Database connection closed.
+2023-12-15 02:48:08,114 - logger - INFO - Data inserted successfully.
+2023-12-15 02:48:08,115 - logger - INFO - Database connection closed.
+2023-12-15 02:48:08,120 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 02:48:08,121 - logger - INFO - Database connection closed.
+2023-12-15 02:48:08,127 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 02:48:08,127 - logger - INFO - Database connection closed.
+2023-12-15 02:48:08,133 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 02:48:08,133 - logger - INFO - Database connection closed.
+2023-12-15 02:48:08,140 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 02:48:08,140 - logger - INFO - Database connection closed.
+2023-12-15 02:48:08,146 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 02:48:08,146 - logger - INFO - Database connection closed.
+2023-12-15 02:48:08,152 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 02:48:08,152 - logger - INFO - Database connection closed.
+2023-12-15 03:00:27,214 - logger - DEBUG - This log's level is 'DEBUG'
+2023-12-15 03:00:27,214 - logger - INFO - This log's level is 'info'
+2023-12-15 03:00:27,214 - logger - ERROR - This log's level is 'error'
+2023-12-15 03:00:29,936 - logger - ERROR - Failed to insert data: 1049 (42000): Unknown database 'restaurant_data_db'
+2023-12-15 03:00:37,776 - logger - DEBUG - This log's level is 'DEBUG'
+2023-12-15 03:00:37,776 - logger - INFO - This log's level is 'info'
+2023-12-15 03:00:37,776 - logger - ERROR - This log's level is 'error'
+2023-12-15 03:00:37,827 - logger - INFO - 
+*** Database was created successfully. ***
+
+2023-12-15 03:00:37,827 - logger - INFO - MySQL connection is closed.
+2023-12-15 03:00:48,116 - logger - DEBUG - This log's level is 'DEBUG'
+2023-12-15 03:00:48,116 - logger - INFO - This log's level is 'info'
+2023-12-15 03:00:48,116 - logger - ERROR - This log's level is 'error'
+2023-12-15 03:00:51,149 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:00:51,150 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,150 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,151 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,152 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:00:51,152 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:00:51,152 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,152 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,152 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,153 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:00:51,153 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:00:51,153 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,153 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,153 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,154 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:00:51,154 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:00:51,154 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,154 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,155 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,155 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:00:51,155 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:00:51,156 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,156 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,156 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,156 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,157 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:00:51,157 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:00:51,157 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,158 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,158 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,158 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:00:51,158 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:00:51,159 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,159 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,159 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,159 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:00:51,160 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:00:51,160 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,160 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,160 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,161 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:00:51,161 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:00:51,161 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,161 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,162 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,162 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:00:51,162 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:00:51,162 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,163 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,164 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:00:51,164 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:00:51,164 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,164 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,164 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,165 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:00:51,165 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:00:51,165 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,165 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,166 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,166 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:00:51,166 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:00:51,166 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,167 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,167 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,167 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:00:51,168 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:00:51,168 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,168 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,168 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,169 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:00:51,169 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:00:51,169 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,169 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,169 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,170 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:00:51,170 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:00:51,170 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,171 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,171 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,171 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:00:51,171 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:00:51,172 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,172 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,172 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,173 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:00:51,173 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:00:51,173 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,173 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,173 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,175 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:00:51,175 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:00:51,175 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,176 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,176 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,176 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:00:51,176 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:00:51,176 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,177 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,177 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,177 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:00:51,178 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:00:51,178 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,178 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,178 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,179 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:00:51,179 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:00:51,179 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,179 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,179 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,180 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:00:51,180 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:00:51,180 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,181 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,181 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,181 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:00:51,181 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:00:51,182 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,182 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,182 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,183 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:00:51,183 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:00:51,183 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,184 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,184 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,185 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:00:51,185 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:00:51,185 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,185 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,185 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,186 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:00:51,186 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:00:51,186 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,186 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,186 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,187 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:00:51,187 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:00:51,187 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,188 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,188 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,189 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:00:51,189 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:00:51,189 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,189 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,190 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,190 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:00:51,190 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:00:51,190 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,191 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,191 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,191 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:00:51,191 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:00:51,191 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,191 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,193 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,193 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:00:51,193 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:00:51,193 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,194 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,194 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,194 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,195 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:00:51,195 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:00:51,195 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,195 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,196 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,196 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,196 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,197 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:00:51,197 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:00:51,197 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,197 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,198 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,200 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,200 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,201 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:00:51,201 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:00:51,201 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,202 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,202 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,202 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,202 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,203 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:00:51,203 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:00:51,204 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,204 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,204 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:00:51,204 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:00:51,206 - logger - INFO - All data inserted successfully.
+2023-12-15 03:06:00,890 - logger - DEBUG - This log's level is 'DEBUG'
+2023-12-15 03:06:00,890 - logger - INFO - This log's level is 'info'
+2023-12-15 03:06:00,890 - logger - ERROR - This log's level is 'error'
+2023-12-15 03:06:00,959 - logger - INFO - 
+*** Database was created successfully. ***
+
+2023-12-15 03:06:00,960 - logger - INFO - MySQL connection is closed.
+2023-12-15 03:06:59,979 - logger - DEBUG - This log's level is 'DEBUG'
+2023-12-15 03:06:59,980 - logger - INFO - This log's level is 'info'
+2023-12-15 03:06:59,980 - logger - ERROR - This log's level is 'error'
+2023-12-15 03:07:03,121 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:07:03,129 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:07:03,130 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:07:03,130 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:07:03,131 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:07:03,131 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:07:03,132 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,132 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,133 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,133 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:07:03,133 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:07:03,134 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,134 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:07:03,134 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:07:03,135 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:07:03,135 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:07:03,135 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,136 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:07:03,136 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:07:03,136 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:07:03,137 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:07:03,137 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,137 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:07:03,138 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:07:03,138 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,138 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:07:03,139 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:07:03,139 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,139 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:07:03,139 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:07:03,140 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:07:03,140 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:07:03,140 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,141 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:07:03,141 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,141 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:07:03,142 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:07:03,142 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,142 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:07:03,142 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,143 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:07:03,143 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:07:03,143 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,143 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,143 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,144 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:07:03,144 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:07:03,144 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,144 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,145 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:07:03,145 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:07:03,145 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,145 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,146 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:07:03,146 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:07:03,146 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:07:03,147 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,147 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:07:03,147 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:07:03,148 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:07:03,148 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:07:03,148 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,148 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,149 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,149 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:07:03,149 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:07:03,149 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,150 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,150 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,150 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:07:03,151 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:07:03,151 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,151 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,151 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:07:03,151 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:07:03,153 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:07:03,153 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,153 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:07:03,153 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,154 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:07:03,154 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:07:03,154 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,155 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,155 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:07:03,156 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:07:03,156 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:07:03,156 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,156 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,156 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,157 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:07:03,157 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:07:03,157 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,158 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,158 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,158 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:07:03,158 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:07:03,158 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,159 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:07:03,159 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,159 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:07:03,159 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:07:03,161 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,161 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,161 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,161 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:07:03,162 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:07:03,162 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,162 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,162 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,162 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:07:03,164 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:07:03,164 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,164 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,165 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,165 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:07:03,165 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:07:03,165 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,165 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:07:03,166 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,166 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:07:03,166 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:07:03,167 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,167 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,167 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,167 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:07:03,168 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:07:03,168 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,168 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,168 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,169 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:07:03,169 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:07:03,169 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,169 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,170 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,170 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:07:03,170 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:07:03,171 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,171 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,171 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,171 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:07:03,171 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:07:03,173 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,173 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,173 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,173 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:07:03,174 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:07:03,174 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,174 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,174 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,174 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:07:03,175 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:07:03,175 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,175 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:07:03,175 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,177 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:07:03,177 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:07:03,177 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,177 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,178 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:07:03,178 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,178 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:07:03,179 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:07:03,179 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,179 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:07:03,179 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:07:03,179 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,180 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,180 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:07:03,180 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:07:03,181 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,181 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,181 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,181 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:07:03,181 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:07:03,183 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:07:03,183 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:07:03,183 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,184 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,184 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,184 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:07:03,184 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,185 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:07:03,185 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:07:03,186 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:07:03,186 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:07:03,186 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:07:03,187 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:07:03,187 - logger - INFO - All data inserted successfully.
+2023-12-15 03:17:44,105 - logger - INFO - 
+*** Database was created successfully. ***
+
+2023-12-15 03:17:44,105 - logger - INFO - MySQL connection is closed.
+2023-12-15 03:20:08,703 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:20:08,704 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:20:08,705 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:20:08,705 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:20:08,706 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:20:08,706 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:20:08,706 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,706 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,706 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,707 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:20:08,707 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:20:08,707 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,708 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:20:08,709 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:20:08,709 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:20:08,709 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:20:08,709 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,709 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:20:08,710 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:20:08,710 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:20:08,710 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:20:08,711 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,711 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:20:08,711 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:20:08,712 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,712 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:20:08,712 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:20:08,713 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,713 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:20:08,713 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:20:08,714 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:20:08,714 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:20:08,714 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,715 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:20:08,715 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,715 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:20:08,715 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:20:08,717 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,717 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:20:08,717 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,717 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:20:08,717 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:20:08,718 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,718 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,718 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,718 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:20:08,718 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:20:08,718 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,720 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,720 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:20:08,720 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:20:08,720 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,721 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,721 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:20:08,721 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:20:08,722 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:20:08,722 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,722 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:20:08,723 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:20:08,723 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:20:08,723 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:20:08,723 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,724 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,724 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,724 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:20:08,725 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:20:08,725 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,725 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,725 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,726 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:20:08,726 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:20:08,726 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,726 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,727 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:20:08,727 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:20:08,727 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:20:08,728 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,728 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:20:08,728 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,729 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:20:08,729 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:20:08,729 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,729 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,730 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:20:08,730 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:20:08,730 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:20:08,730 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,730 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,731 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,731 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:20:08,731 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:20:08,732 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,732 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,732 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,733 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:20:08,733 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:20:08,733 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,734 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:20:08,734 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,734 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:20:08,735 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:20:08,735 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,735 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,735 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,736 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:20:08,736 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:20:08,736 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,736 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,737 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,737 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:20:08,737 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:20:08,737 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,738 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,738 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,738 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:20:08,738 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:20:08,739 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,739 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:20:08,739 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,740 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:20:08,740 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:20:08,740 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,740 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,740 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,741 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:20:08,741 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:20:08,741 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,741 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,742 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,742 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:20:08,742 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:20:08,742 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,743 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,743 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,743 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:20:08,744 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:20:08,744 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,744 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,744 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,745 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:20:08,745 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:20:08,745 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,745 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,746 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,746 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:20:08,746 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:20:08,747 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,747 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,747 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,747 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:20:08,748 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:20:08,748 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,748 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:20:08,748 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,748 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:20:08,750 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:20:08,750 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,750 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,750 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:20:08,751 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,751 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:20:08,752 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:20:08,752 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,752 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:20:08,753 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:20:08,753 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,753 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,754 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:20:08,754 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:20:08,754 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,754 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,755 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,755 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:20:08,755 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:20:08,756 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:20:08,756 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:20:08,757 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,757 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,757 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,757 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:20:08,758 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,758 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:20:08,759 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:20:08,759 - logger - INFO - Category already exists in Categories table.
+2023-12-15 03:20:08,759 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:20:08,760 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:20:08,760 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:20:08,760 - logger - INFO - All data inserted successfully.
+2023-12-15 03:29:18,058 - logger - ERROR - Failed to insert data: 1049 (42000): Unknown database 'restaurant_data_db'
+2023-12-15 03:29:24,377 - logger - INFO - 
+*** Database was created successfully. ***
+
+2023-12-15 03:29:24,377 - logger - INFO - MySQL connection is closed.
+2023-12-15 03:29:33,265 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-15 03:29:33,265 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-15 03:29:33,265 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-15 03:29:33,265 - logger - INFO - All data inserted successfully.
+2023-12-21 17:56:57,094 - logger - CRITICAL - Failed creating database 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'delivery-yes/no, price, yelp_rating
+CREATE TABLE IF NOT EXISTS Yelp_Data (
+    R' at line 1.
+2023-12-21 17:56:57,095 - logger - INFO - MySQL connection is closed.
+2023-12-21 17:57:11,407 - logger - CRITICAL - Failed creating database 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'delivery-yes/no, price, yelp_rating
+CREATE TABLE IF NOT EXISTS Yelp_Data (
+    R' at line 1.
+2023-12-21 17:57:11,408 - logger - INFO - MySQL connection is closed.
+2023-12-21 17:57:58,884 - logger - CRITICAL - Failed creating database 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'delivery-yes/no, price, yelp_rating
+CREATE TABLE IF NOT EXISTS Yelp_Data (
+    R' at line 1.
+2023-12-21 17:57:58,884 - logger - INFO - MySQL connection is closed.
+2023-12-21 17:58:17,765 - logger - CRITICAL - Failed creating database 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',
+    FOREIGN KEY (Restaurant_Id) REFERENCES Restaurants(Restaurant_Id)
+)' at line 5.
+2023-12-21 17:58:17,765 - logger - INFO - MySQL connection is closed.
+2023-12-21 17:58:45,316 - logger - CRITICAL - Failed creating database 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FOREIGN KEY (Restaurant_Id) REFERENCES Restaurants(Restaurant_Id)
+)' at line 6.
+2023-12-21 17:58:45,317 - logger - INFO - MySQL connection is closed.
+2023-12-21 18:00:05,266 - logger - CRITICAL - Failed creating database 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FOREIGN KEY (Restaurant_Id) REFERENCES Restaurants(Restaurant_Id)
+)' at line 6.
+2023-12-21 18:00:05,267 - logger - INFO - MySQL connection is closed.
+2023-12-21 18:00:16,054 - logger - CRITICAL - Failed creating database 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FOREIGN KEY (Restaurant_Id) REFERENCES Restaurants(Restaurant_Id)
+)' at line 6.
+2023-12-21 18:00:16,054 - logger - INFO - MySQL connection is closed.
+2023-12-21 18:01:48,523 - logger - CRITICAL - Failed creating database 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FOREIGN KEY (Restaurant_Id) REFERENCES Restaurants(Restaurant_Id)
+)' at line 6.
+2023-12-21 18:01:48,523 - logger - INFO - MySQL connection is closed.
+2023-12-21 18:02:03,622 - logger - INFO - 
+*** Database was created successfully. ***
+
+2023-12-21 18:02:03,623 - logger - INFO - MySQL connection is closed.
+2023-12-21 18:03:52,634 - logger - CRITICAL - Failed creating database 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'UNIQUE int,
+    Yelp_has_delivery ENUM('NO', 'YES'),
+    Yelp_type_Pricing varch' at line 2.
+2023-12-21 18:03:52,634 - logger - INFO - MySQL connection is closed.
+2023-12-21 18:04:05,097 - logger - INFO - 
+*** Database was created successfully. ***
+
+2023-12-21 18:04:05,097 - logger - INFO - MySQL connection is closed.
+2023-12-21 18:06:20,886 - logger - INFO - 
+*** Database was created successfully. ***
+
+2023-12-21 18:06:20,886 - logger - INFO - MySQL connection is closed.
+2023-12-23 21:37:01,567 - logger - ERROR - Failed to insert data: 1045 (28000): Access denied for user 'pass'@'localhost' (using password: YES)
+2023-12-23 23:55:01,037 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-23 23:55:01,037 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-23 23:55:01,037 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-23 23:55:01,047 - logger - INFO - All data inserted successfully.
