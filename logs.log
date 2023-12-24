@@ -830,3 +830,143 @@ CREATE TABLE IF NOT EXISTS Yelp_Data (
 2023-12-23 23:55:01,037 - logger - INFO - Data inserted into Restaurants table successfully.
 2023-12-23 23:55:01,037 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
 2023-12-23 23:55:01,047 - logger - INFO - All data inserted successfully.
+2023-12-24 05:00:39,197 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-24 05:00:39,197 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-24 05:00:39,197 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-24 05:02:17,926 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-24 05:02:17,926 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-24 05:02:17,926 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-24 05:03:26,403 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-24 05:03:26,403 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-24 05:03:26,403 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-24 05:03:32,320 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-24 05:03:32,321 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-24 05:03:32,321 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-24 05:09:20,385 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-24 05:09:20,386 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-24 05:09:20,386 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-24 05:09:20,398 - logger - ERROR - Failed to insert data into Yelp_Data table: Not enough parameters for the SQL statement
+2023-12-24 05:09:20,399 - logger - ERROR - Failed to insert data: Not enough parameters for the SQL statement
+2023-12-24 05:10:00,657 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-24 05:10:00,658 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-24 05:10:00,658 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-24 05:10:00,660 - logger - ERROR - Failed to insert data into Yelp_Data table: Not enough parameters for the SQL statement
+2023-12-24 05:10:00,660 - logger - ERROR - Failed to insert data: Not enough parameters for the SQL statement
+2023-12-24 05:13:41,609 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-24 05:13:41,609 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-24 05:13:41,609 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-24 05:13:41,615 - logger - ERROR - Failed to insert data into Yelp_Data table: Not enough parameters for the SQL statement
+2023-12-24 05:13:41,616 - logger - ERROR - Failed to insert data: Not enough parameters for the SQL statement
+2023-12-24 05:14:13,039 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-24 05:14:13,039 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-24 05:14:13,039 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-24 05:14:13,049 - logger - ERROR - Failed to insert data into Yelp_Data table: Not enough parameters for the SQL statement
+2023-12-24 05:14:13,049 - logger - ERROR - Failed to insert data: Not enough parameters for the SQL statement
+2023-12-24 05:14:39,465 - logger - INFO - 
+*** Database was created successfully. ***
+
+2023-12-24 05:14:39,465 - logger - INFO - MySQL connection is closed.
+2023-12-24 05:14:47,128 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-24 05:14:47,129 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-24 05:14:47,129 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-24 05:14:47,131 - logger - ERROR - Failed to insert data into Yelp_Data table: Not enough parameters for the SQL statement
+2023-12-24 05:14:47,131 - logger - ERROR - Failed to insert data: Not enough parameters for the SQL statement
+2023-12-24 05:15:57,671 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-24 05:15:57,671 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-24 05:15:57,671 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-24 05:15:57,673 - logger - ERROR - Failed to insert data into Yelp_Data table: Not enough parameters for the SQL statement
+2023-12-24 05:15:57,673 - logger - ERROR - Failed to insert data: Not enough parameters for the SQL statement
+2023-12-24 05:23:58,301 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-24 05:23:58,301 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-24 05:23:58,301 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-24 05:23:58,304 - logger - ERROR - Failed to insert data into Yelp_Data table: Not enough parameters for the SQL statement
+2023-12-24 05:23:58,304 - logger - ERROR - Failed to insert data: Not enough parameters for the SQL statement
+2023-12-24 05:24:49,182 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-24 05:24:49,182 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-24 05:24:49,182 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-24 05:24:49,190 - logger - INFO - Data inserted into Yelp_Data table successfully.
+2023-12-24 05:24:49,190 - logger - INFO - All data inserted successfully.
+2023-12-24 05:34:09,789 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-24 05:34:09,789 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-24 05:34:09,789 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-24 05:36:17,368 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-24 05:36:17,368 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-24 05:36:17,368 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-24 05:36:17,373 - logger - INFO - Data inserted into Yelp_Data table successfully.
+2023-12-24 05:36:17,375 - logger - INFO - All data inserted successfully.
+2023-12-24 05:42:34,075 - logger - INFO - 
+*** Database was created successfully. ***
+
+2023-12-24 05:42:34,077 - logger - INFO - MySQL connection is closed.
+2023-12-24 05:48:12,132 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-24 05:48:12,132 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-24 05:48:12,132 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-24 05:48:12,134 - logger - ERROR - Failed to insert data into Yelp_Data table: Not enough parameters for the SQL statement
+2023-12-24 05:48:12,135 - logger - ERROR - Failed to insert data: Not enough parameters for the SQL statement
+2023-12-24 06:02:07,388 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-24 06:02:07,389 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-24 06:02:07,389 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-24 06:14:36,545 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-24 06:14:36,546 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-24 06:14:36,547 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-24 06:14:44,253 - logger - ERROR - Failed to insert data into Yelp_Data table: 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`restaurant_data_db`.`yelp_data`, CONSTRAINT `yelp_data_ibfk_1` FOREIGN KEY (`Restaurant_Id`) REFERENCES `restaurants` (`Restaurant_Id`))
+2023-12-24 06:14:51,837 - logger - ERROR - Failed to insert data: 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`restaurant_data_db`.`yelp_data`, CONSTRAINT `yelp_data_ibfk_1` FOREIGN KEY (`Restaurant_Id`) REFERENCES `restaurants` (`Restaurant_Id`))
+2023-12-24 06:26:58,258 - logger - ERROR - Failed to insert data: 1049 (42000): Unknown database 'restaurant_data_db'
+2023-12-24 06:27:09,848 - logger - INFO - 
+*** Database was created successfully. ***
+
+2023-12-24 06:27:09,848 - logger - INFO - MySQL connection is closed.
+2023-12-24 06:27:27,409 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-24 06:27:27,409 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-24 06:27:27,409 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-24 06:27:27,413 - logger - ERROR - Failed to insert data into Yelp_Data table: 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`restaurant_data_db`.`yelp_data`, CONSTRAINT `yelp_data_ibfk_1` FOREIGN KEY (`Restaurant_Id`) REFERENCES `restaurants` (`Restaurant_Id`))
+2023-12-24 06:27:27,413 - logger - ERROR - Failed to insert data: 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`restaurant_data_db`.`yelp_data`, CONSTRAINT `yelp_data_ibfk_1` FOREIGN KEY (`Restaurant_Id`) REFERENCES `restaurants` (`Restaurant_Id`))
+2023-12-24 06:31:49,872 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-24 06:31:49,872 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-24 06:31:49,872 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-24 06:31:49,875 - logger - ERROR - Failed to insert data into Yelp_Data table: 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`restaurant_data_db`.`yelp_data`, CONSTRAINT `yelp_data_ibfk_1` FOREIGN KEY (`Restaurant_Id`) REFERENCES `restaurants` (`Restaurant_Id`))
+2023-12-24 06:31:49,875 - logger - ERROR - Failed to insert data: 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`restaurant_data_db`.`yelp_data`, CONSTRAINT `yelp_data_ibfk_1` FOREIGN KEY (`Restaurant_Id`) REFERENCES `restaurants` (`Restaurant_Id`))
+2023-12-24 06:32:18,021 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-24 06:32:18,021 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-24 06:32:18,021 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-24 06:32:18,023 - logger - ERROR - Failed to insert data into Yelp_Data table: 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`restaurant_data_db`.`yelp_data`, CONSTRAINT `yelp_data_ibfk_1` FOREIGN KEY (`Restaurant_Id`) REFERENCES `restaurants` (`Restaurant_Id`))
+2023-12-24 06:32:18,024 - logger - ERROR - Failed to insert data: 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`restaurant_data_db`.`yelp_data`, CONSTRAINT `yelp_data_ibfk_1` FOREIGN KEY (`Restaurant_Id`) REFERENCES `restaurants` (`Restaurant_Id`))
+2023-12-24 06:33:48,762 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-24 06:33:48,762 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-24 06:33:48,762 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-24 06:33:48,763 - logger - INFO - Data inserted into Yelp_Data table successfully.
+2023-12-24 06:33:48,763 - logger - INFO - All data inserted successfully.
+2023-12-24 06:42:54,035 - logger - ERROR - Failed to insert data into Yelp_Data table: 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`restaurant_data_db`.`yelp_data`, CONSTRAINT `yelp_data_ibfk_1` FOREIGN KEY (`Restaurant_Id`) REFERENCES `restaurants` (`Restaurant_Id`))
+2023-12-24 06:42:54,035 - logger - ERROR - Failed to insert data: 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`restaurant_data_db`.`yelp_data`, CONSTRAINT `yelp_data_ibfk_1` FOREIGN KEY (`Restaurant_Id`) REFERENCES `restaurants` (`Restaurant_Id`))
+2023-12-24 06:46:28,519 - logger - ERROR - Failed to insert data into Yelp_Data table: 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`restaurant_data_db`.`yelp_data`, CONSTRAINT `yelp_data_ibfk_1` FOREIGN KEY (`Restaurant_Id`) REFERENCES `restaurants` (`Restaurant_Id`))
+2023-12-24 06:46:28,520 - logger - ERROR - Failed to insert data: 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`restaurant_data_db`.`yelp_data`, CONSTRAINT `yelp_data_ibfk_1` FOREIGN KEY (`Restaurant_Id`) REFERENCES `restaurants` (`Restaurant_Id`))
+2023-12-24 06:49:38,926 - logger - ERROR - Failed to insert data into Yelp_Data table: 1062 (23000): Duplicate entry '267' for key 'yelp_data.Restaurant_Id'
+2023-12-24 06:49:38,926 - logger - ERROR - Failed to insert data: 1062 (23000): Duplicate entry '267' for key 'yelp_data.Restaurant_Id'
+2023-12-24 07:08:05,587 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-24 07:08:05,587 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-24 07:08:05,587 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-24 07:08:05,594 - logger - INFO - All data inserted successfully.
+2023-12-24 07:28:57,315 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-24 07:28:57,315 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-24 07:28:57,315 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-24 07:30:35,949 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-24 07:30:35,949 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-24 07:30:35,949 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-24 07:36:10,041 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-24 07:36:10,041 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-24 07:36:10,041 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-24 07:36:10,125 - logger - INFO - Data inserted into Yelp_Data table successfully.
+2023-12-24 07:36:10,125 - logger - INFO - All data inserted successfully.
+2023-12-24 07:37:07,716 - logger - INFO - 
+*** Database was created successfully. ***
+
+2023-12-24 07:37:07,716 - logger - INFO - MySQL connection is closed.
+2023-12-24 07:37:32,301 - logger - INFO - 
+*** Database was created successfully. ***
+
+2023-12-24 07:37:32,301 - logger - INFO - MySQL connection is closed.
+2023-12-24 07:43:52,102 - logger - INFO - Data inserted into Categories table successfully.
+2023-12-24 07:43:52,102 - logger - INFO - Data inserted into Restaurants table successfully.
+2023-12-24 07:43:52,102 - logger - INFO - Data inserted into Restaurants_Categories table successfully.
+2023-12-24 07:43:52,172 - logger - INFO - Data inserted into Yelp_Data table successfully.
+2023-12-24 07:43:52,172 - logger - INFO - All data inserted successfully.

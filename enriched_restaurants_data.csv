@@ -27,7 +27,6 @@ Number,Name,Categories,Phone,Address,Rating,Rating Count,Yelp_Rating,Yelp_type_P
 424,L'Antica Pizzeria Da Michele,"Restaurants, Italian Restaurants, Bars",(323) 366-2408,"1534 N Mccadden Pl, Los Angeles, CA 90028",5/5,(1),4.5,$$$,Yes
 428,Bavel,"Restaurants, American Restaurants, Mediterranean Restaurants",(213) 232-4966,"500 Mateo St, Los Angeles, CA 90013",5/5,(1),4.5,$$$,Yes
 429,Sun Nong Dan,"Restaurants, Take Out Restaurants, Asian Restaurants",(213) 365-0303,"3470 W 6th St Ste 7, Los Angeles, CA 90020",5/5,(1),4.5,$$,Yes
-429,Sun Nong Dan,"Restaurants, Take Out Restaurants, Asian Restaurants",(213) 365-0303,"3470 W 6th St Ste 7, Los Angeles, CA 90020",5/5,(1),4.0,$$$,Yes
 431,M Grill,"Restaurants, Brazilian Restaurants, Steak Houses",(213) 389-2770,"3832 Wilshire Blvd 2nd Fl, Los Angeles, CA 90010",5/5,(1),4.5,$$$$,Yes
 434,Eat This Cafe,"Restaurants, American Restaurants, Caterers",(323) 999-2003,"6547 Santa Monica Blvd, Los Angeles, CA 90038",5/5,(1),4.0,$$,Yes
 436,Tatsu Ramen,"Restaurants, Japanese Restaurants, Asian Restaurants",(323) 747-1388,"7111 Melrose Ave, Los Angeles, CA 90046",5/5,(1),4.0,$$,Yes
