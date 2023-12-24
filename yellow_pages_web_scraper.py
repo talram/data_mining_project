@@ -293,7 +293,6 @@ def insert_to_yelp_data_table():
 
     table_name = 'yelp_data'
 
-    # Read CSV file into a pandas DataFrame
     df_yelp = pd.read_csv(csv_file_path)
 
     # Create a MySQL connection and insert data into the table
