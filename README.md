@@ -39,11 +39,6 @@ To run the scraper locally, follow these steps
 Clone the repository:
 git clone https://github.com/your-username/yellow-pages-scraper.git
 
-## Running Tests
-
-To run tests, follow the steps below:
-<span style="color: red;">update at the end of milestone3.</span>
-
 ### Unix/Linux
 ### bash
 ```
@@ -53,12 +48,11 @@ chmod +x web_scraper_yellow_pages.py
 #than you can run web_scraper_yellow_pages.py
 #default values for -sc, -sh and -ex are all False
 #write 
-web_scraper_yellow_pages.py -example_letter_1 -example_letter_2 -example_letter_3 
+main.py -example_letter_1 -example_letter_2
 -h for help
--sc for scrape
--sh for showing result at terminal
--ex for export to csv file at local file of the script
-#make sure to add -sc with every -sh or -ex, without it will not scan values.
+-sc for scraping
+-p for printing the scraped data from Yellow Pages website
+#make sure to add at least -sc
 ```
 ### windows
 ## CMD
@@ -67,12 +61,11 @@ web_scraper_yellow_pages.py -example_letter_1 -example_letter_2 -example_letter_
 cd ./folder
 #default values for -sc, -sh and -ex are all False
 #write 
-web_scraper_yellow_pages.py -example_letter_1 -example_letter_2 -example_letter_3 
+main.py -example_letter_1 -example_letter_2
 -h for help
--sc for scrape
--sh for showing result at terminal
--ex for export to csv file at local file of the script
-#make sure to add -sc with every -sh or -ex, without it will not scan values.
+-sc for scraping
+-p for printing the scraped data from Yellow Pages website
+#make sure to add at least -sc
 
 ```
 ### pycharm
@@ -81,26 +74,18 @@ web_scraper_yellow_pages.py -example_letter_1 -example_letter_2 -example_letter_
 #right mouse click on script name, than modify configutation beofre run
 #at empty cell of change parametes right the parametere you want to enter:
 -h for help
--sc for scrape
--sh for showing result at terminal
--ex for export to csv file at local file of the script
-#make sure to add -sc with every -sh or -ex, without it will not scan values.
-#or change the json file address at yellow_pages_web_scraper.py
-if __name__ == '__main__':
-    CONFIG_FILE_PATH = 'config.json'
+-sc for scraping
+-p for printing the scraped data from Yellow Pages website
+#make sure to add at least -sc
 ```
 run will print the standard location.
 to change locations, take different url from the website.
 change the  url='website_address' at config.json
 for example: 
 url='https://www.yellowpages.com/los-angeles-ca/restaurants?page=1'  
-make sure to take address with number at the end
+
 ​
 ​
-<span style="color: red;">update at the end of milestone3.</span>
-will look like:
-\web_scraper_yellow_pages.py -sc -sh
-(-sc -sh is for scrape and show, further explanation at running test section)
 
 Restaurant Number: 1
 Name: Palermo Ristorante Italiano
@@ -132,8 +117,17 @@ Rating Count: (3)
 ## Tech Stack
 ​
 **Python interpreter 3.12+
-requests  
-bs4
+
+requests
+
+BeautifulSoup
+
+argparse
+
+SQLAlchemy, MySQL
+
+Pandas, Numpy
+
 ​
 ## Run Locally
 ​
@@ -141,15 +135,13 @@ Clone the project
 ​
 bash
 
-<span style="color: red;">update at the end of milestone3.</span>
+Ran main.py to run the whole project end-to-end.
 
 ```bash
 --cd ./folder
 --git clone https://github.com/talram/data_mining_project.git
 --make sure JSON file is also at the file 
-or change the json file address at yellow_pages_web_scraper.py
-if __name__ == '__main__':
-    CONFIG_FILE_PATH = 'config.json'
+or change the json file address at main.py
 ```
 ​
 ```bash
@@ -158,8 +150,7 @@ if __name__ == '__main__':
   pip install bs4
 ```
 ​
-first run create_db  
-Start the web_scraper_yellow_pages.py
+
 ​
 run it to get standard text or open and change url at def main function
 ​
@@ -180,7 +171,10 @@ the search function was parted for simplification of ease and mutability.
 Set up the database schema:
 ​
 
-Run Database Setup Script: python create_db.py
+After scraping the website,
+
+the program automatically runs the Database Setup Script: python create_db.py
+
 ​
 ### Database Schema
 Our database consists of the following tables:
@@ -250,16 +244,6 @@ SOFTWARE.
 ​
 EVERY COMMERCIAL GAIN BELONG TO THE REAL YELLOW PAGES tm
 ​
-## Lessons Learned
-​
-<span style="color: red;">update at the end of milestone3.</span>
-
-python bs4 methods and python requests with use of collecting the information to dictionary,
-which the elements are listed by enumerate.
-classes which collected from changing website with different elements of HTML Classes.
-connecting files to appending JSON file.
-scanning values from user.
-analyzing and moving data and creating databases 
 ​
 ​
 ## Feedback

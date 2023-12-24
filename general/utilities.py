@@ -22,7 +22,6 @@ def load_config():
 def load_constants():
     config_data = load_config()
     if config_data is not None:
-        logger.info("\n*** Constants files are loaded and ready to use. ***\n")
         return config_data.get('constants', {})
     else:
         return {}

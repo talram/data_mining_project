@@ -1,30 +1,38 @@
 Number,Name,Categories,Phone,Address,Rating,Rating Count,Yelp_Rating,Yelp_type_Pricing,Yelp_has_delivery
 107,The Park's Finest,"Restaurants, Barbecue Restaurants, Caterers",(213) 481-2800,"1267 W Temple St, Los Angeles, CA 90026",rating not available/5,Review count not available,4.0,$$,Yes
+226,The Park's Finest,"Restaurants, Barbecue Restaurants, Caterers",(213) 481-2800,"1267 W Temple St, Los Angeles, CA 90026",rating not available/5,Review count not available,4.0,$$,Yes
 128,Osteria Mamma,"Restaurants, Italian Restaurants, Pizza",(323) 284-7060,"5732 Melrose Ave, Los Angeles, CA 90038",rating not available/5,(4),4.0,$$,Yes
 156,ShaBuShi,"Restaurants, Japanese Restaurants",(323) 522-6457,"5185 W Sunset Blvd, Los Angeles, CA 90027",rating not available/5,(87),4.0,$$,Yes
 172,The Kitchen,"Restaurants, American Restaurants, Caterers",(323) 664-3663,"4348 Fountain Ave, Los Angeles, CA 90029",rating not available/5,(40),4.0,$$,Yes
 174,Son of a Gun,"Restaurants, Seafood Restaurants",(323) 782-9033,"8370 W 3rd St, Los Angeles, CA 90048",rating not available/5,(4),4.0,$$$,Yes
-230,Musso & Frank Grill,"Restaurants, American Restaurants, Fine Dining Restaurants",(323) 467-7788,"6667 Hollywood Blvd, Los Angeles, CA 90028",rating not available/5,(3),4.0,$$$,Yes
-240,Bestia,"Restaurants, Italian Restaurants, Family Style Restaurants",(213) 514-5724,"2121 E 7th Pl, Los Angeles, CA 90021",rating not available/5,(9),4.5,$$$,Yes
-1238,Bestia,"Restaurants, Italian Restaurants",(213) 514-5724,"2121 E 7th Pl  Los Angeles  Ca, Los Angeles, CA 90021",rating not available/5,Review count not available,4.5,$$$,Yes
-249,Perch,"Restaurants, French Restaurants, American Restaurants",(213) 802-1770,"448 S Hill St, Los Angeles, CA 90013",rating not available/5,(7),4.0,$$$,Yes
+230,Son of a Gun,"Restaurants, Seafood Restaurants",(323) 782-9033,"8370 W 3rd St, Los Angeles, CA 90048",rating not available/5,(4),4.0,$$$,Yes
+219,Sidewalk Grill,"Restaurants, Delicatessens, Caterers",(323) 669-3354,"1727 N Vermont Ave, Los Angeles, CA 90027",rating not available/5,Review count not available,4.5,$$,Yes
+1720,Sidewalk Grill,"Restaurants, Delicatessens, Caterers",(323) 669-3354,"1727 N Vermont Ave, Los Angeles, CA 90027",rating not available/5,Review count not available,4.5,$$,Yes
+223,Sun Nong Dan,"Restaurants, Take Out Restaurants, Asian Restaurants",(213) 365-0303,"3470 W 6th St Ste 7, Los Angeles, CA 90020",rating not available/5,(1),4.5,$$,Yes
+429,Sun Nong Dan,"Restaurants, Take Out Restaurants, Asian Restaurants",(213) 365-0303,"3470 W 6th St Ste 7, Los Angeles, CA 90020",rating not available/5,(1),4.5,$$,Yes
+225,La Pergoletta,"Restaurants, Italian Restaurants, Caterers",(323) 664-8259,"1802 Hillhurst Ave, Los Angeles, CA 90027",rating not available/5,(2),4.5,$$,Yes
+348,La Pergoletta,"Restaurants, Italian Restaurants, Caterers",(323) 664-8259,"1802 Hillhurst Ave, Los Angeles, CA 90027",rating not available/5,(2),4.5,$$,Yes
+227,Bao Dim Sum House,"Restaurants, Chinese Restaurants, Asian Restaurants",(323) 655-6556,"8256 Beverly Blvd, Los Angeles, CA 90048",rating not available/5,(3),4.0,$$,Yes
+282,Bao Dim Sum House,"Restaurants, Chinese Restaurants, Asian Restaurants",(323) 655-6556,"8256 Beverly Blvd, Los Angeles, CA 90048",rating not available/5,(3),4.0,$$,Yes
+231,Ham Ji Park,"Restaurants, Asian Restaurants, Korean Restaurants",(213) 365-8773,"3407 W 6th St, Los Angeles, CA 90020",rating not available/5,(4),4.0,$$,Yes
 268,Ham Ji Park,"Restaurants, Asian Restaurants, Korean Restaurants",(213) 365-8773,"3407 W 6th St, Los Angeles, CA 90020",rating not available/5,(4),4.0,$$,Yes
 1741,Ham Ji Park,"Restaurants, Barbecue Restaurants, Korean Restaurants",(323) 733-8333,"4135 W Pico Blvd, Los Angeles, CA 90019",rating not available/5,Review count not available,4.0,$$,Yes
-282,Bao Dim Sum House,"Restaurants, Chinese Restaurants, Asian Restaurants",(323) 655-6556,"8256 Beverly Blvd, Los Angeles, CA 90048",rating not available/5,(3),4.0,$$,Yes
+242,Mario's Peruvian & Seafood,"Restaurants, Peruvian Restaurants, Latin American Restaurants",(323) 466-4181,"5786 Melrose Ave, Los Angeles, CA 90038",rating not available/5,(2),4.0,$$,No
+2843,Mario's Peruvian & Seafood,"Restaurants, Peruvian Restaurants, Latin American Restaurants",(323) 466-4181,"5786 Melrose Ave, Los Angeles, CA 90038",rating not available/5,(2),4.0,$$,No
+249,Perch,"Restaurants, French Restaurants, American Restaurants",(213) 802-1770,"448 S Hill St, Los Angeles, CA 90013",rating not available/5,(7),4.0,$$$,Yes
 291,Otium,"Restaurants, American Restaurants",(213) 935-8500,"222 S Hope St, Los Angeles, CA 90012",rating not available/5,(3),4.0,$$$,Yes
 295,Pine & Crane,"Restaurants, Asian Restaurants, Chinese Restaurants",(323) 668-1128,"1521 Griffith Park Blvd, Los Angeles, CA 90026",rating not available/5,(3),4.5,$$,Yes
 317,Osteria La Buca,"Restaurants, Take Out Restaurants, Italian Restaurants",(323) 462-1900,"5210 Melrose Ave, Los Angeles, CA 90038",rating not available/5,(3),4.0,$$,Yes
 812,Osteria La Buca,"Restaurants, Italian Restaurants, Pizza",(323) 462-1900,"5210 1/2 Melrose Ave, Los Angeles, CA 90038",rating not available/5,Review count not available,4.0,$$,Yes
+1354,Osteria La Buca,"Restaurants, Take Out Restaurants, Italian Restaurants",(323) 462-1900,"5210 Melrose Ave, Los Angeles, CA 90038",rating not available/5,(3),4.0,$$,Yes
 330,Hollywood Burger,"Restaurants, Hamburgers & Hot Dogs, American Restaurants",(323) 378-5668,"6250 Hollywood Blvd Ste 100, Los Angeles, CA 90028",rating not available/5,(2),4.5,$$,Yes
 334,Marugame Monzo,"Restaurants, Japanese Restaurants, Asian Restaurants",(213) 346-9762,"329 E 1st St, Los Angeles, CA 90012",rating not available/5,(2),4.5,$$,Yes
-348,La Pergoletta,"Restaurants, Italian Restaurants, Caterers",(323) 664-8259,"1802 Hillhurst Ave, Los Angeles, CA 90027",rating not available/5,(2),4.5,$$,Yes
 367,Beachwood Cafe,"Restaurants, American Restaurants, Coffee Shops",(323) 871-1717,"2695 N Beachwood Dr, Los Angeles, CA 90068",rating not available/5,(2),4.0,$$,Yes
 382,My Two Cents,"Restaurants, American Restaurants",(323) 938-1012,"5583 W Pico Blvd, Los Angeles, CA 90019",rating not available/5,(2),4.5,$$,Yes
 388,Eggslut,"Restaurants, American Restaurants",(213) 625-0292,"317 S. Broadway, Stall D-1, Los Angeles, CA 90013",rating not available/5,(3),4.0,$$,Yes
 396,Pizzeria Mozza,"Restaurants, Italian Restaurants, Pasta",(323) 297-0101,"641 N Highland Ave, Los Angeles, CA 90036",rating not available/5,(2),4.0,$$,Yes
 424,L'Antica Pizzeria Da Michele,"Restaurants, Italian Restaurants, Bars",(323) 366-2408,"1534 N Mccadden Pl, Los Angeles, CA 90028",rating not available/5,(1),4.5,$$$,Yes
 428,Bavel,"Restaurants, American Restaurants, Mediterranean Restaurants",(213) 232-4966,"500 Mateo St, Los Angeles, CA 90013",rating not available/5,(1),4.5,$$$,Yes
-429,Sun Nong Dan,"Restaurants, Take Out Restaurants, Asian Restaurants",(213) 365-0303,"3470 W 6th St Ste 7, Los Angeles, CA 90020",rating not available/5,(1),4.5,$$,Yes
 431,M Grill,"Restaurants, Brazilian Restaurants, Steak Houses",(213) 389-2770,"3832 Wilshire Blvd 2nd Fl, Los Angeles, CA 90010",rating not available/5,(1),4.5,$$$$,Yes
 434,Eat This Cafe,"Restaurants, American Restaurants, Caterers",(323) 999-2003,"6547 Santa Monica Blvd, Los Angeles, CA 90038",rating not available/5,(1),4.0,$$,Yes
 436,Tatsu Ramen,"Restaurants, Japanese Restaurants, Asian Restaurants",(323) 747-1388,"7111 Melrose Ave, Los Angeles, CA 90046",rating not available/5,(1),4.0,$$,Yes
@@ -38,17 +46,14 @@ Number,Name,Categories,Phone,Address,Rating,Rating Count,Yelp_Rating,Yelp_type_P
 717,Joey Dtla,"Restaurants, American Restaurants, Bars",(213) 372-5335,"700 W 7th St Ste S430, Los Angeles, CA 90017",rating not available/5,Review count not available,4.5,,No
 721,Poppy + Rose,"Restaurants, American Restaurants, Sandwich Shops",(213) 995-7799,"765 Wall St, Los Angeles, CA 90014",rating not available/5,Review count not available,4.0,$$,Yes
 722,Joyce,"Restaurants, American Restaurants, Seafood Restaurants",(213) 395-0202,"770 S Grand Ave Unit A, Los Angeles, CA 90017",rating not available/5,Review count not available,4.5,,No
-749,Dama,"Restaurants, Seafood Restaurants, Latin American Restaurants",(213) 741-0612,"612 E 11th St, Los Angeles, CA 90015",rating not available/5,Review count not available,4.5,$$$,Yes
-754,Tsubaki,"Restaurants, Japanese Restaurants, Asian Restaurants",(213) 900-4900,"1356 Allison Ave, Los Angeles, CA 90026",rating not available/5,Review count not available,4.0,$$$,Yes
-755,Ototo,"Restaurants, Japanese Restaurants, Bars",(213) 784-7930,"1360 Allison Ave, Los Angeles, CA 90026",rating not available/5,Review count not available,4.0,$$,No
-756,Lucky Mizu,"Restaurants, Japanese Restaurants",(213) 789-7853,"1254 S Figueroa St 8th Fl, Los Angeles, CA 90015",rating not available/5,Review count not available,4.0,$$$$,No
+735,Bolt,"Restaurants, Coffee Break Service & Supplies, Coffee & Tea",(323) 484-2658,"5648 Hollywood Blvd, Los Angeles, CA 90028",rating not available/5,Review count not available,4.5,$$,Yes
 766,Woon,"Restaurants, Chinese Restaurants, Asian Restaurants",(213) 674-7434,"2920 W Temple St, Los Angeles, CA 90026",rating not available/5,Review count not available,4.5,$$,Yes
 781,Louders,"Restaurants, Japanese Restaurants, Take Out Restaurants",(213) 263-9492,"3470 W 6th St, Los Angeles, CA 90020",rating not available/5,Review count not available,4.5,$$,Yes
 787,Bacari Silverlake,"Restaurants, American Restaurants, Bars",(323) 410-7304,"3626 W Sunset Blvd, Los Angeles, CA 90026",rating not available/5,Review count not available,4.5,,Yes
 791,Openaire,"Restaurants, American Restaurants, Breakfast, Brunch & Lunch Restaurants",(213) 368-3065,"3515 Wilshire Blvd, Los Angeles, CA 90010",rating not available/5,Review count not available,3.5,$$$,Yes
 795,Sukasukasaya,"Restaurants, Asian Restaurants, Take Out Restaurants",(323) 403-0329,"3087 W Pico Blvd, Los Angeles, CA 90006",rating not available/5,Review count not available,4.5,$$,Yes
 802,Pasta Sisters,"Restaurants, Italian Restaurants, Caterers",(323) 870-5271,"3343 W Pico Blvd, Los Angeles, CA 90019",rating not available/5,Review count not available,4.5,$$,Yes
-2103,Pasta Sisters,"Restaurants, Italian Restaurants",(424) 603-4503,"3280 Helms Ave, Los Angeles, CA 90034",rating not available/5,Review count not available,4.5,$$,Yes
+2133,Pasta Sisters,"Restaurants, Italian Restaurants",(424) 603-4503,"3280 Helms Ave, Los Angeles, CA 90034",rating not available/5,Review count not available,4.5,$$,Yes
 813,Muraya,"Restaurants, Sushi Bars, Japanese Restaurants",(323) 856-0369,"125 N Larchmont Blvd, Los Angeles, CA 90004",rating not available/5,Review count not available,4.0,$$,Yes
 814,Good Goose Cafe,"Restaurants, Sushi Bars, Japanese Restaurants",(323) 378-5272,"5210 Beverly Blvd, Los Angeles, CA 90004",rating not available/5,Review count not available,5.0,$$,Yes
 829,Met Her At A Bar,"Restaurants, Coffee & Espresso Restaurants, Coffee Shops",(323) 847-5013,"759 S La Brea Ave, Los Angeles, CA 90036",rating not available/5,Review count not available,4.5,$$,Yes
@@ -61,12 +66,17 @@ Number,Name,Categories,Phone,Address,Rating,Rating Count,Yelp_Rating,Yelp_type_P
 886,Seoulmates,"Restaurants, Korean Restaurants, Asian Restaurants",(323) 424-4863,"8320 W 3rd St, Los Angeles, CA 90048",rating not available/5,Review count not available,4.5,$$,Yes
 1079,Manuela,"Restaurants, American Restaurants, Caterers",(323) 849-0480,"907 E 3rd St, Los Angeles, CA 90013",rating not available/5,Review count not available,4.0,$$,Yes
 1188,Habachihana Grill,"Restaurants, Sushi Bars, Japanese Restaurants",(213) 433-8638,"1045 S Hill St, Los Angeles, CA 90015",rating not available/5,Review count not available,4.0,$$,Yes
+1238,Bestia,"Restaurants, Italian Restaurants",(213) 514-5724,"2121 E 7th Pl  Los Angeles  Ca, Los Angeles, CA 90021",rating not available/5,Review count not available,4.5,$$$,Yes
 1279,Jin Chinese Kitchen,"Restaurants, Chinese Restaurants",(213) 263-2263,"1930 W Olympic Blvd, Los Angeles, CA 90006",rating not available/5,Review count not available,4.0,$,Yes
-1349,Yuk Dae Jang,"Restaurants, Korean Restaurants, Asian Restaurants",(213) 352-1331,"3033 W 6th St Ste 104, Los Angeles, CA 90020",rating not available/5,Review count not available,4.5,$$,Yes
+1418,The Silver Lake House,"Restaurants, Thai Restaurants, Asian Restaurants",(323) 660-6100,"1737 Silver Lake Blvd, Los Angeles, CA 90026",rating not available/5,Review count not available,4.5,$$,Yes
+1425,Seong Buk Dong,"Restaurants, Korean Restaurants, Asian Restaurants",(213) 738-8977,"3303 W 6th St, Los Angeles, CA 90020",rating not available/5,Review count not available,4.0,$$,Yes
+1429,Dumpling House,"Restaurants, Korean Restaurants, Asian Restaurants",(213) 389-3899,"3525 W 3rd St, Los Angeles, CA 90020",rating not available/5,Review count not available,4.0,$$,Yes
+1439,Rikas Peruvian Cuisine,"Restaurants, Seafood Restaurants",(213) 263-2134,"3553 W 3rd St, Los Angeles, CA 90020",rating not available/5,Review count not available,4.5,$$,Yes
 1448,Holbox,"Restaurants, Seafood Restaurants, Take Out Restaurants",(213) 986-9972,"3655 S Grand Ave, Los Angeles, CA 90007",rating not available/5,Review count not available,5.0,$$,Yes
 1500,Gol Tong Chicken,"Restaurants, American Restaurants",(213) 716-6116,"3625 W 6th St, Los Angeles, CA 90020",rating not available/5,Review count not available,5.0,$$,Yes
 1508,Himalayan House,"Restaurants, Indian Restaurants, Chinese Restaurants",(213) 262-7897,"1277 W Jefferson Blvd, Los Angeles, CA 90007",rating not available/5,Review count not available,4.0,$$,Yes
 1527,Mdk Noodles,"Restaurants, Asian Restaurants",(213) 385-7789,"3630 Wilshire Blvd, Los Angeles, CA 90010",rating not available/5,Review count not available,4.0,$$,Yes
+1596,Here's Looking at You,"Restaurants, American Restaurants, Asian Restaurants",(213) 568-3573,"3901 W 6th St, Los Angeles, CA 90020",rating not available/5,Review count not available,4.0,$$$,Yes
 1607,Zzamong,"Restaurants, Family Style Restaurants, Caterers",(213) 739-2747,"4255 W 3rd St, Los Angeles, CA 90020",rating not available/5,Review count not available,4.0,$$,Yes
 1624,HanEuem,"Restaurants, Korean Restaurants, Asian Restaurants",(213) 388-8988,"539 S Western Ave, Los Angeles, CA 90020",rating not available/5,Review count not available,4.5,$$$,Yes
 1668,Saikai Ramen Bar,"Restaurants, Asian Restaurants",(323) 378-6518,"209 N Western Ave Unit B, Los Angeles, CA 90004",rating not available/5,Review count not available,4.5,$$,Yes
@@ -75,7 +85,6 @@ Number,Name,Categories,Phone,Address,Rating,Rating Count,Yelp_Rating,Yelp_type_P
 1704,Ggiata Delicatessen,"Restaurants, Delicatessens, Italian Restaurants",(323) 798-5713,"5009 Melrose Ave, Los Angeles, CA 90038",rating not available/5,Review count not available,4.0,$$,No
 1714,Olympic Noodle,"Restaurants, Asian Restaurants, Korean Restaurants",(323) 931-0007,"4008 W Olympic Blvd, Los Angeles, CA 90019",rating not available/5,Review count not available,4.0,$$,Yes
 1718,Oi Asian Fusion,"Restaurants, Asian Restaurants, Japanese Restaurants",(213) 458-1945,"4734 Hollywood Blvd, Los Angeles, CA 90027",rating not available/5,Review count not available,4.5,$$,Yes
-1720,Sidewalk Grill,"Restaurants, Delicatessens, Caterers",(323) 669-3354,"1727 N Vermont Ave, Los Angeles, CA 90027",rating not available/5,Review count not available,4.5,$$,Yes
 1729,La Cevicheria,"Restaurants, Seafood Restaurants, Latin American Restaurants",(323) 732-1253,"3809 W Pico Blvd, Los Angeles, CA 90019",rating not available/5,Review count not available,4.5,$$,No
 1809,Johnny's West Adams,"Restaurants, American Restaurants, Delicatessens",(323) 840-3048,"4327 W Adams Blvd, Los Angeles, CA 90018",rating not available/5,Review count not available,4.0,$$,Yes
 1869,Rao's Hollywood,"Restaurants, Italian Restaurants, Family Style Restaurants",(323) 962-7267,"1006 Seward St, Los Angeles, CA 90038",rating not available/5,Review count not available,4.5,$$$,Yes
@@ -84,16 +93,15 @@ Number,Name,Categories,Phone,Address,Rating,Rating Count,Yelp_Rating,Yelp_type_P
 1912,Tao Asian Bistro,"Restaurants, Asian Restaurants, Bars",(323) 593-7888,"6421 Selma Ave, Los Angeles, CA 90028",rating not available/5,Review count not available,4.0,$$$,Yes
 1914,Mother Wolf,"Restaurants, Italian Restaurants",(323) 410-6060,"1545 Wilcox Ave, Los Angeles, CA 90028",rating not available/5,Review count not available,4.0,$$$$,No
 1920,Gwen,"Restaurants, American Restaurants, Family Style Restaurants",(323) 946-7500,"6600 W Sunset Blvd, Los Angeles, CA 90028",rating not available/5,Review count not available,4.0,,No
-1977,Fanny's,"Restaurants, American Restaurants",(323) 930-3080,"6067 Wilshire Blvd, Los Angeles, CA 90036",rating not available/5,Review count not available,4.0,$$,No
-1992,Pho Saigon Pearl,"Restaurants, Vietnamese Restaurants, Asian Restaurants",(323) 930-8935,"519 S Fairfax Ave, Los Angeles, CA 90036",rating not available/5,Review count not available,4.0,$$,Yes
-2006,BBQ + Rice,"Restaurants, Korean Restaurants, Asian Restaurants",(323) 498-5772,"7363 W Sunset Blvd, Los Angeles, CA 90046",rating not available/5,Review count not available,5.0,$$,Yes
-2299,Northern Cafe,"Restaurants, Chinese Restaurants, Take Out Restaurants",(310) 208-8830,"1064 Gayley Ave, Los Angeles, CA 90024",rating not available/5,Review count not available,4.0,$$,Yes
-2418,Carousel Restaurant,"Restaurants, Family Style Restaurants, Caterers",(323) 660-8060,"5112 Hollywood Blvd Ste 107, Los Angeles, CA 90027",rating not available/5,(11),4.5,$$$,Yes
-2430,25 Degrees,"Restaurants, American Restaurants, Breakfast, Brunch & Lunch Restaurants",(323) 785-7244,"7000 Hollywood Blvd, Los Angeles, CA 90028",rating not available/5,(3),3.5,$$,Yes
-2453,Ruen Pair,"Restaurants, Asian Restaurants, Thai Restaurants",(323) 466-0153,"5257 Hollywood Blvd, Los Angeles, CA 90027",rating not available/5,(22),4.0,$$,Yes
-2455,Providence,"Restaurants, Seafood Restaurants, American Restaurants",(323) 460-4170,"5955 Melrose Ave, Los Angeles, CA 90038",rating not available/5,(8),4.5,$$$$,No
-2457,Masa of Echo Park,"Restaurants, Pizza, Italian Restaurants",(213) 989-1558,"1800 W Sunset Blvd, Los Angeles, CA 90026",rating not available/5,(8),4.0,$$,No
-2535,A Food Affair,"Restaurants, French Restaurants, American Restaurants",(310) 557-9795,"1513 S Robertson Blvd, Los Angeles, CA 90035",rating not available/5,Review count not available,4.5,$$$,No
-2813,Mario's Peruvian & Seafood,"Restaurants, Peruvian Restaurants, Latin American Restaurants",(323) 466-4181,"5786 Melrose Ave, Los Angeles, CA 90038",rating not available/5,(2),4.0,$$,No
-2860,Osteria Mozza,"Restaurants, Italian Restaurants, Pizza",(323) 297-0100,"6602 Melrose Ave, Los Angeles, CA 90038",rating not available/5,(8),4.0,$$$$,Yes
-2883,California Grill Restaurant,"Restaurants, Family Style Restaurants, Caterers",(323) 660-0427,"800 N Virgil Ave, Los Angeles, CA 90029",rating not available/5,Review count not available,4.5,$,Yes
+2007,Fanny's,"Restaurants, American Restaurants",(323) 930-3080,"6067 Wilshire Blvd, Los Angeles, CA 90036",rating not available/5,Review count not available,4.0,$$,No
+2022,Pho Saigon Pearl,"Restaurants, Vietnamese Restaurants, Asian Restaurants",(323) 930-8935,"519 S Fairfax Ave, Los Angeles, CA 90036",rating not available/5,Review count not available,4.0,$$,Yes
+2036,BBQ + Rice,"Restaurants, Korean Restaurants, Asian Restaurants",(323) 498-5772,"7363 W Sunset Blvd, Los Angeles, CA 90046",rating not available/5,Review count not available,5.0,$$,Yes
+2329,Northern Cafe,"Restaurants, Chinese Restaurants, Take Out Restaurants",(310) 208-8830,"1064 Gayley Ave, Los Angeles, CA 90024",rating not available/5,Review count not available,4.0,$$,Yes
+2448,Carousel Restaurant,"Restaurants, Family Style Restaurants, Caterers",(323) 660-8060,"5112 Hollywood Blvd Ste 107, Los Angeles, CA 90027",rating not available/5,(11),4.5,$$$,Yes
+2460,25 Degrees,"Restaurants, American Restaurants, Breakfast, Brunch & Lunch Restaurants",(323) 785-7244,"7000 Hollywood Blvd, Los Angeles, CA 90028",rating not available/5,(3),3.5,$$,Yes
+2483,Ruen Pair,"Restaurants, Asian Restaurants, Thai Restaurants",(323) 466-0153,"5257 Hollywood Blvd, Los Angeles, CA 90027",rating not available/5,(22),4.0,$$,Yes
+2485,Providence,"Restaurants, Seafood Restaurants, American Restaurants",(323) 460-4170,"5955 Melrose Ave, Los Angeles, CA 90038",rating not available/5,(8),4.5,$$$$,No
+2487,Masa of Echo Park,"Restaurants, Pizza, Italian Restaurants",(213) 989-1558,"1800 W Sunset Blvd, Los Angeles, CA 90026",rating not available/5,(8),4.0,$$,No
+2565,A Food Affair,"Restaurants, French Restaurants, American Restaurants",(310) 557-9795,"1513 S Robertson Blvd, Los Angeles, CA 90035",rating not available/5,Review count not available,4.5,$$$,No
+2890,Osteria Mozza,"Restaurants, Italian Restaurants, Pizza",(323) 297-0100,"6602 Melrose Ave, Los Angeles, CA 90038",rating not available/5,(8),4.0,$$$$,Yes
+2913,California Grill Restaurant,"Restaurants, Family Style Restaurants, Caterers",(323) 660-0427,"800 N Virgil Ave, Los Angeles, CA 90029",rating not available/5,Review count not available,4.5,$,Yes
