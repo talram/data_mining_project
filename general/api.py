@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 import os
 
-API_KEY = "B9mEEpxDvVaE2hvFuomBnu2Q2rWcpP34uWfeN1rHkjVK9CNZ6tlRN_oBtn3qvpCcA_nxaQeBpymLyj1F2iszjCE0utVmmwDFBbhP2OCwsLlE3Mb7WAG8vZce8WKHZXYx"
+API_KEY = "ITS_A_SECRET_ASK_TAL"
 ENDPOINT = "https://api.yelp.com/v3/businesses/search"
 HEADERS = {'Authorization': 'bearer %s' % API_KEY}
 
