@@ -1,3 +1,4 @@
+import pandas as pd
 import requests
 # from bs4 import dependencies
 from bs4 import BeautifulSoup
@@ -6,8 +7,9 @@ import sys
 import csv
 import json
 import mysql.connector
+from sqlalchemy import create_engine
+
 from logger import logger
-import os
 
 
 def load_config():
@@ -209,8 +211,8 @@ def parse():
 def connect_to_database():
     return mysql.connector.connect(
         host="localhost",
-        user="pass",
-        password="pass",
+        user="root",
+        password="12345",
         database="restaurant_data_db"
     )
 
@@ -277,6 +279,33 @@ def insert_to_restaurants_categories_table(cursor, restaurant_id, category_ids):
         raise
 
 
+def insert_to_yelp_data_table():
+    mysql_config = {
+        'user': 'root',
+        'password': '12345',
+        'host': 'localhost',
+        'database': 'restaurant_data_db',
+    }
+
+    mysql_connection = mysql.connector.connect(**mysql_config)
+
+    csv_file_path = 'only_matched_yelp.csv'
+
+    table_name = 'yelp_data'
+
+    df_yelp = pd.read_csv(csv_file_path)
+
+    # Create a MySQL connection and insert data into the table
+    engine = create_engine(
+        f"mysql+mysqlconnector://{mysql_config['user']}:{mysql_config['password']}@{mysql_config['host']}/{mysql_config['database']}")
+
+    df_yelp.to_sql(table_name, engine, if_exists='replace', index=False)
+
+    mysql_connection.close()
+
+    print(f"Data from {csv_file_path} successfully loaded into {table_name} table.")
+
+
 def insert_data(main_dict_categories):
     try:
         with connect_to_database() as conn, conn.cursor() as cursor:
@@ -290,12 +319,17 @@ def insert_data(main_dict_categories):
 
                 # Insert into Restaurants_Categories table
                 insert_to_restaurants_categories_table(cursor, restaurant_id, category_ids)
+
             logger.info("Data inserted into Categories table successfully.")
             logger.info("Data inserted into Restaurants table successfully.")
             logger.info("Data inserted into Restaurants_Categories table successfully.")
 
             conn.commit()
-            logger.info("All data inserted successfully.")
+
+        insert_to_yelp_data_table()
+        logger.info("Data inserted into Yelp_Data table successfully.")
+        logger.info("All data inserted successfully.")
+
     except mysql.connector.Error as error:
         logger.error("Failed to insert data: {}".format(error))
 
@@ -303,7 +337,7 @@ def insert_data(main_dict_categories):
 def main():
     main_dict_categories = {}
     flag_scrape, flag_show, flag_excel, flag_data_base = parse()
-    flag_scrape, flag_show, flag_excel, flag_data_base = True, False, False, True  # for testing, delete at the end
+    flag_scrape, flag_show, flag_excel, flag_data_base = True, True, False, True  # for testing, delete at the end
     if flag_scrape:
         # base_url = "https://www.yellowpages.com/los-angeles-ca/restaurants?page={}"
         base_url = CONFIG.get('BASE_URL')
