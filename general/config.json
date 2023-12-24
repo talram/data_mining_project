@@ -1,11 +1,6 @@
 {
-  "CSV_FILE_PATH": "restaurants.csv",
-
   "CONFIG_FILE_PATH": "config.json",
-
   "BASE_URL": "https://www.yellowpages.com/los-angeles-ca/restaurants?page={}",
-
-
   "RATING_CLASSES": {
     "result-rating five": 5,
     "result-rating four half": 4.5,
@@ -20,7 +15,15 @@
   "DB_CONFIG": {
     "host": "localhost",
     "user": "root",
-    "password": "",
+    "password": "*****",
     "database": "restaurant_data_db"
+  },
+  "constants": {
+    "YELP_RAW_CSV_FILE": "yelp_retrieved_restaurants.csv",
+    "YELLOW_PAGES_CSV_FILE": "restaurants.csv",
+    "BASE_URL": "https://www.yellowpages.com/los-angeles-ca/restaurants?page={}",
+    "API_KEY": "SECRET_KEY",
+    "ENDPOINT": "https://api.yelp.com/v3/businesses/search",
+    "HEADERS,": "{'Authorization': 'bearer %s' % API_KEY}"
   }
 }
