@@ -1,5 +1,4 @@
 import mysql.connector
-
 from general.logger import logger
 
 
@@ -84,7 +83,3 @@ def build_database(db_name, host_name, user_name, password, sql_tables):
                 logger.info("MySQL connection is closed.")
             else:
                 logger.info("Connection to MySQL did not succeed.")
-
-
-# Replace these values with your actual database credentials
-build_database("restaurant_data_db", "localhost", "root", "12345", create_tables())
