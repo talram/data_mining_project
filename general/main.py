@@ -16,7 +16,7 @@ def main():
 
     # API_KEY kept in SECRET,
     # so only_matched_yelp.csv and raw yelp files were uploaded to GitHub
-    secret_api = True  # Don't change
+    secret_api = False  # Don't change
     if secret_api:
         get_enrichment_data_to_csv(load_constants().get('YELLOW_PAGES_CSV_FILE'),
                                    load_constants().get('ENDPOINT'),
