@@ -1,6 +1,6 @@
 import mysql.connector
 
-from logger import logger
+from general.logger import logger
 
 all_sql_tables = []
 
