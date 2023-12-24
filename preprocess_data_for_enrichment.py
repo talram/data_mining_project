@@ -43,6 +43,7 @@ df_ready_for_enrichment.rename(columns={'price': 'Yelp_type_Pricing',
 
 df_only_matched_yelp = df_ready_for_enrichment[['Number', 'Yelp_has_delivery',
                                                 'Yelp_type_Pricing', 'Yelp_Rating']]
+df_only_matched_yelp.rename(columns={'Number': 'Restaurant_Id'}, inplace=True)
 df_only_matched_yelp.to_csv('only_matched_yelp.csv', index=False)
 
 df_ready_for_enrichment.to_csv('enriched_restaurants_data.csv', index=False)
