@@ -1,11 +1,22 @@
 import requests
 from bs4 import BeautifulSoup
 
+# from general.utilities import load_constants
 from general.utilities import load_constants
 
 
 def find_rating(listing):
-    rating_classes = load_constants().get('RATING_CLASSES', {})
+    rating_classes = {
+        'result-rating five': 5,
+        'result-rating four half': 4.5,
+        'result-rating four': 4,
+        'result-rating three half': 3.5,
+        'result-rating three': 3,
+        'result-rating two half': 2.5,
+        'result-rating two': 2,
+        'result-rating one half': 1.5,
+        'result-rating one': 1
+    }
     try:
         for class_name, rating_value in rating_classes.items():
             ratings_element = listing.find('div', class_=class_name)
@@ -129,7 +140,7 @@ def search(restaurant_listings, dict_categories):
 
 def scrape(config_base_url):
     main_dict_categories = {}
-    for page_number in range(1, 101):  # Change the range accordingly, above 101 Irrelevant
+    for page_number in range(1, 3):  # Change the range accordingly, above 101 Irrelevant
         base_url = config_base_url
         url = base_url.format(page_number)
         try:
